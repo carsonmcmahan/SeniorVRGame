@@ -3,13 +3,23 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class ButtonManager : MonoBehaviour
-{ 
-    [Header("Objects To Spawn")]
-    [SerializeField] private GameObject bedrooms;
-    [SerializeField] private GameObject kitchen;
-    [SerializeField] private GameObject livingroom;
-    [SerializeField] private GameObject garage;
-    [SerializeField] private GameObject roof;
+{
+    [Header("Spawn Location")]
+    [SerializeField] private Transform spawnLocation;
+
+    [Header("Objects to Spawn")]
+    public GameObject cloneLivingroomTwo;
+    public GameObject cloneGarageTwo;
+    public GameObject cloneKitchenTwo;
+    public GameObject cloneBedroomsTwo;
+    public GameObject cloneRoofTwo;
+
+    [Header("Bools to check if object is in the scene")]
+    public bool livingroomPressed = false;
+    public bool garagePressed = false;
+    public bool kitchenPressed = false;
+    public bool bedroomsPressed = false;
+    public bool roofPressed = false;
 
     [Header("Audio")] //adds audio to a UI button when its pressed
     public AudioSource livingroomButton;
@@ -18,33 +28,93 @@ public class ButtonManager : MonoBehaviour
     public AudioSource bedroomsButton;
     public AudioSource roofButton;
 
-    public void SpawnBedrooms()
+    public void Start()
     {
-        bedrooms.SetActive(true);
-        bedroomsButton.Play();
+        cloneBedroomsTwo = GameObject.Find("bedrooms_two(clone)");
+        cloneGarageTwo = GameObject.Find("Garage_Two(Clone)");
+        cloneLivingroomTwo = GameObject.Find("Livingroom_Two(Clone)");
+        cloneKitchenTwo = GameObject.Find("Kitchen_Two(Clone)");
+        cloneRoofTwo = GameObject.Find("Roof_Two(Clone)");
     }
 
-    public void SpawnKitchen()
+    public void SpawnLivingroom(GameObject prefab)
     {
-        kitchen.SetActive(true);
-        kitchenButton.Play();
+        if (livingroomPressed == false)
+        {
+            cloneLivingroomTwo = Instantiate(prefab, spawnLocation.position, spawnLocation.rotation);
+            livingroomPressed = true;
+            livingroomButton.Play();
+        }
+        else
+        {
+            livingroomButton.Play();
+
+            Debug.Log("Object already in scene! " + livingroomPressed);
+        }
     }
 
-    public void SpawnLivingroom()
+    public void SpawnGarage(GameObject prefab)
     {
-        livingroom.SetActive(true);
-        livingroomButton.Play();
+        if (garagePressed == false)
+        {
+            cloneGarageTwo = Instantiate(prefab, spawnLocation.position, spawnLocation.rotation);
+            garagePressed = true;
+            garageButton.Play();
+        }
+        else
+        {
+            garageButton.Play();
+
+            Debug.Log("Object already in scene! " + garagePressed);
+        }
     }
 
-    public void SpawnGarage()
+    public void SpawnKitchen(GameObject prefab)
     {
-        garage.SetActive(true);
-        garageButton.Play();
+
+        if (kitchenPressed == false)
+        {
+            cloneKitchenTwo = Instantiate(prefab, spawnLocation.position, spawnLocation.rotation);
+            kitchenPressed = true;
+            kitchenButton.Play();
+        }
+        else
+        {
+            kitchenButton.Play();
+
+            Debug.Log("Object already in scene! " + kitchenPressed);
+        }
     }
 
-    public void SpawnRoof()
+    public void SpawnBedrooms(GameObject prefab)
     {
-        roof.SetActive(true);
-        roofButton.Play();
+        if (bedroomsPressed == false)
+        {
+            cloneBedroomsTwo = Instantiate(prefab, spawnLocation.position, spawnLocation.rotation);
+            bedroomsPressed = true;
+            bedroomsButton.Play();
+        }
+        else
+        {
+            bedroomsButton.Play();
+
+            Debug.Log("Object already in scene! " + bedroomsPressed);
+        }
+    }
+
+    public void SpawnRoof(GameObject prefab)
+    {
+        if (roofPressed == false)
+        {
+            cloneRoofTwo = Instantiate(prefab, spawnLocation.position, spawnLocation.rotation);
+            roofPressed = true;
+            roofButton.Play();
+        }
+        else
+        {
+            roofButton.Play();
+
+            Debug.Log("Object already in scene! " + roofPressed);
+        }
     }
 }

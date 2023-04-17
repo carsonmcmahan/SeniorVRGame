@@ -3,7 +3,13 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Trashcan
+  - Bedrooms_Two_Interactable
+  - Garage_Two_Interactable
+  - Livingroom_Master_Two_Interactable
+  - Roof_Two_Interactable
+  - Kitchen_Master_Two_Interactable
   layers:
   - Default
   - TransparentFX
