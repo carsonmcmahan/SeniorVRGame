@@ -772,17 +772,17 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: a3c0819eef9bf2d4e9e06b6897b94a20,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -4.63
+      value: -4.5
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: a3c0819eef9bf2d4e9e06b6897b94a20,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.49999964
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: a3c0819eef9bf2d4e9e06b6897b94a20,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 2.811
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: a3c0819eef9bf2d4e9e06b6897b94a20,
         type: 3}
@@ -2656,13 +2656,14 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 965678022}
-        m_TargetAssemblyTypeName: SpawnManager, Assembly-CSharp
-        m_MethodName: SpawnRoof
-        m_Mode: 1
+      - m_Target: {fileID: 965678024}
+        m_TargetAssemblyTypeName: TestButtonScript, Assembly-CSharp
+        m_MethodName: SpawnInteractable
+        m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_ObjectArgument: {fileID: 2028504605694547586, guid: 88a4ac4096b559747a3516f5320cce5b,
+            type: 3}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -3593,13 +3594,14 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 965678022}
-        m_TargetAssemblyTypeName: SpawnManager, Assembly-CSharp
-        m_MethodName: SpawnGarage
-        m_Mode: 1
+      - m_Target: {fileID: 965678024}
+        m_TargetAssemblyTypeName: TestButtonScript, Assembly-CSharp
+        m_MethodName: SpawnInteractable
+        m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_ObjectArgument: {fileID: 8116943108044479700, guid: b4f550475ee08564b9bde262e36b60ea,
+            type: 3}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -4016,6 +4018,7 @@ GameObject:
   m_Component:
   - component: {fileID: 965678023}
   - component: {fileID: 965678022}
+  - component: {fileID: 965678024}
   m_Layer: 0
   m_Name: ---ButtonManager---
   m_TagString: Untagged
@@ -4061,6 +4064,20 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &965678024
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 965678021}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a90c71d465edd6b4385968d7235d38e8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  spawnLocation: {fileID: 1690050315}
+  isActive: 0
 --- !u!1 &985841614 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: b572927c6df52ca45ba6c25b41b1746f,
@@ -4806,7 +4823,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1170153391
 RectTransform:
   m_ObjectHideFlags: 0
@@ -4934,8 +4951,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a90c71d465edd6b4385968d7235d38e8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  prefab: {fileID: 4675887212054911559, guid: a30037b4751ef1940b6b2bd461fd4d58, type: 3}
-  spawnLocation: {fileID: 1690050315}
+  spawnLocation: {fileID: 0}
   isActive: 0
 --- !u!1001 &1181679945
 PrefabInstance:
@@ -5682,13 +5698,14 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 965678022}
-        m_TargetAssemblyTypeName: SpawnManager, Assembly-CSharp
-        m_MethodName: SpawnBedrooms
-        m_Mode: 1
+      - m_Target: {fileID: 965678024}
+        m_TargetAssemblyTypeName: TestButtonScript, Assembly-CSharp
+        m_MethodName: SpawnInteractable
+        m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_ObjectArgument: {fileID: 4675887212054911559, guid: a30037b4751ef1940b6b2bd461fd4d58,
+            type: 3}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -5913,13 +5930,14 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 965678022}
-        m_TargetAssemblyTypeName: SpawnManager, Assembly-CSharp
-        m_MethodName: SpawnLivingroom
-        m_Mode: 1
+      - m_Target: {fileID: 965678024}
+        m_TargetAssemblyTypeName: TestButtonScript, Assembly-CSharp
+        m_MethodName: SpawnInteractable
+        m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_ObjectArgument: {fileID: 3501377668148668316, guid: 6ed516e7d4816d342996baf0e3583749,
+            type: 3}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -6575,7 +6593,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1618380826}
   m_LocalRotation: {x: 0.7071068, y: 0.7071068, z: 0, w: 0}
-  m_LocalPosition: {x: -5.51, y: 2.259, z: 2.8070002}
+  m_LocalPosition: {x: -5.5, y: 2.3, z: 3}
   m_LocalScale: {x: 0.2, y: 0.5, z: 0.3}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -6981,14 +6999,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1690050314}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -3.63, y: 1.098, z: -2.51}
+  m_LocalRotation: {x: -0, y: 0.70710677, z: -0, w: 0.7071068}
+  m_LocalPosition: {x: -4.5, y: 1.5, z: 3}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 965678023}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
 --- !u!1 &1703833721
 GameObject:
   m_ObjectHideFlags: 0
@@ -8311,13 +8329,14 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 965678022}
-        m_TargetAssemblyTypeName: SpawnManager, Assembly-CSharp
-        m_MethodName: SpawnKitchen
-        m_Mode: 1
+      - m_Target: {fileID: 965678024}
+        m_TargetAssemblyTypeName: TestButtonScript, Assembly-CSharp
+        m_MethodName: SpawnInteractable
+        m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_ObjectArgument: {fileID: 1389673638420377805, guid: 1f2f8a64d5fae614199c9cf4a3d1fae6,
+            type: 3}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 

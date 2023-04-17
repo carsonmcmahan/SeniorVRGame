@@ -4,20 +4,10 @@ using UnityEngine;
 
 public class TestButtonScript : MonoBehaviour
 {
-    public GameObject prefab;
-    public Transform spawnLocation;
-    public bool isActive;
+    [SerializeField] private Transform spawnLocation;
 
-    public void ButtonPressed()
+    public void SpawnInteractable(GameObject prefab)
     {
-        if(isActive == false)
-        {
-            Instantiate(prefab, spawnLocation.position, spawnLocation.rotation);
-            isActive = true;
-        }
-        else if(isActive == true)
-        {
-            Debug.Log("This object already exists in the world!");
-        }
+        Instantiate(prefab, spawnLocation.position, spawnLocation.rotation);
     }
 }
