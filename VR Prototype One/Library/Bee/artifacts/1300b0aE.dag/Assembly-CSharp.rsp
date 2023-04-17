@@ -379,7 +379,6 @@
 -r:"Library/Bee/artifacts/1300b0aE.dag/UnityEngine.XR.LegacyInputHelpers.ref.dll"
 "Assets/Downloaded Assets/ModularFirstPersonController/FirstPersonController/FirstPersonController.cs"
 "Assets/Scripts/BuildingSystem.cs"
-"Assets/Scripts/Main/ButtonManager.cs"
 "Assets/Scripts/Main/DestroyInteractable.cs"
 "Assets/Scripts/Main/MainMenuButtons.cs"
 "Assets/Scripts/Main/PlayerController.cs"
@@ -390,6 +389,8 @@
 "Assets/Scripts/Scale Mechanic/ScaleKitchen.cs"
 "Assets/Scripts/Scale Mechanic/ScaleLivingroom.cs"
 "Assets/Scripts/Scale Mechanic/ScaleRoof.cs"
+"Assets/Scripts/UI Elements/SpawnInteractables.cs"
+"Assets/Scripts/UI Elements/UIManager.cs"
 "Assets/Scripts/VR/CharacterControllerHelper.cs"
 "Assets/Unity Assets/XR/XRPlatformControllerSetup.cs"
 -langversion:9.0
