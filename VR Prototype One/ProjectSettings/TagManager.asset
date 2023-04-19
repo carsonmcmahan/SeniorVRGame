@@ -10,6 +10,7 @@ TagManager:
   - Livingroom_Master_Two_Interactable
   - Roof_Two_Interactable
   - Kitchen_Master_Two_Interactable
+  - Destroy
   layers:
   - Default
   - TransparentFX

@@ -5,16 +5,15 @@ using UnityEngine;
 public class UIManager : MonoBehaviour
 {
     [Header("UI Panels")]
-    public GameObject titlePanel;
-    public GameObject modelsPanel;
+    [SerializeField] private GameObject titlePanel;
+    [SerializeField] private GameObject modelsPanel;
 
     [Header("Model Buttons")]
-    public GameObject houseOneButtons;
-    public GameObject houseTwoButtons;
+    [SerializeField] private GameObject houseOneButtons;
+    [SerializeField] private GameObject houseTwoButtons;
 
     public void TitleToModels()
     {
-
         titlePanel.SetActive(false);
         modelsPanel.SetActive(true);
     }
