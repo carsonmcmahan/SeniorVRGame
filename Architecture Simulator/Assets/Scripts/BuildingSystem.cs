@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class BuildingSystem : MonoBehaviour
 {
-    // Objects
+    [Header("Objects to Place")]
     public GameObject[] objects;
     private GameObject pendingObject;
 
@@ -17,12 +17,13 @@ public class BuildingSystem : MonoBehaviour
     private RaycastHit hit;
 
     // Rotate amount, size of grid, adn boolean to tell if the grid is working
-    private float rotateAmount = 45;
+    private float rotateAmount = 45f;
     private float gridSize = 1f;
     private bool gridOn = true;
 
     private void Update()
     {
+        // Select object to place method
         SelectObjectInput();
 
         if (pendingObject != null)
@@ -54,13 +55,16 @@ public class BuildingSystem : MonoBehaviour
 
     private void FixedUpdate()
     {
+        // Raycast from the camera
         Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
 
+        // Checking to see if the ray hits the first layermask
         if (Physics.Raycast(ray, out hit, 100, layerMaskOne))
         {
             position = hit.point;
         }
 
+        // Checking to see if the ray hits the second layermask
         if (Physics.Raycast(ray, out hit, 100, layerMaskTwo))
         {
             position = hit.point;
@@ -99,19 +103,22 @@ public class BuildingSystem : MonoBehaviour
         }
     }
 
-    //Rotates the selected object
+    // Rotates the selected object
     public void RotateObject()
     {
         pendingObject.transform.Rotate(Vector3.up, rotateAmount);
     }
 
-    //These two methods make up the grid.
-    //Grid is always on and the second method determines how big the grid is
+    // 
     public void ToggleGrid()
     {
         gridOn = true;
     }
 
+    // Determines how big the grid is 
+    // gridSize is how big the grid will actually be
+    // tested between 0.5 and 1
+    // these seem like the best options
     float RoundToNearestGrid(float pos)
     {
         float xDiff = pos % gridSize;
