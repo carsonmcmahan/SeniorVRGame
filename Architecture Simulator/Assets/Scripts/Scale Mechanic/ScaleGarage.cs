@@ -4,21 +4,28 @@ using UnityEngine;
 
 public class ScaleGarage : MonoBehaviour
 {
-    [SerializeField] private GameObject garage;
+    [SerializeField] private GameObject garageTwo;
+    [SerializeField] private Transform spawnPoint;
+    private GameObject clonePrefab;
+
+    private void Start()
+    {
+        clonePrefab = GameObject.Find("Garage_Two_Normal(Clone)");
+    }
 
     private void OnTriggerEnter(Collider other)
     {
-        if (other.gameObject.name == "Garage")
+        if (other.gameObject.tag == "Garage_Two_Interactable")
         {
-            garage.SetActive(true);
+            clonePrefab = Instantiate(garageTwo, spawnPoint.position, spawnPoint.rotation);
         }
     }
 
     private void OnTriggerExit(Collider other)
     {
-        if (other.gameObject.name == "Garage")
+        if (other.gameObject.tag == "Garage_Two_Interactable")
         {
-            garage.SetActive(false);
+            Destroy(clonePrefab);
         }
     }
 }

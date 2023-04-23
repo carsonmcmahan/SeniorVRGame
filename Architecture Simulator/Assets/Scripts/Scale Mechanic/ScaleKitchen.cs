@@ -4,43 +4,28 @@ using UnityEngine;
 
 public class ScaleKitchen : MonoBehaviour
 {
-    [SerializeField] private GameObject kitchen;
+    [SerializeField] private GameObject kitchenTwo;
+    [SerializeField] private Transform spawnPoint;
+    private GameObject clonePrefab;
+
+    private void Start()
+    {
+        clonePrefab = GameObject.Find("Kitchen_Master_Two_Normal(Clone)");
+    }
 
     private void OnTriggerEnter(Collider other)
     {
-        if(other.gameObject.name == "Kitchen")
+        if(other.gameObject.tag == "Kitchen_Master_Two_Interactable")
         {
-            kitchen.SetActive(true);
+            clonePrefab = Instantiate(kitchenTwo, spawnPoint.position, spawnPoint.rotation);
         }
     }
 
     private void OnTriggerExit(Collider other)
     {
-        if (other.gameObject.name == "Kitchen")
+        if(other.gameObject.tag == "Kitchen_Master_Two_Interactable")
         {
-            kitchen.SetActive(false);
+            Destroy(clonePrefab);
         }
     }
-
-    //This is how i wanted it to work. However the destroy function does not work for some reason
-    //gives an error that says "cant destroy game data."
-
-    //[SerializeField] private GameObject kitchen;
-    //[SerializeField] private Vector3 spawn;
-
-    //private void OnTriggerEnter(Collider other)
-    //{
-    //    if (other.gameObject.name == "Kitchen")
-    //    {
-    //        Instantiate(kitchen, spawn, Quaternion.identity);
-    //    }
-    //}
-
-    //private void OnTriggerExit(Collider other)
-    //{
-    //    if (other.gameObject.name == "Kitchen")
-    //    {
-    //        Destroy(kitchen);
-    //    }
-    //}
 }

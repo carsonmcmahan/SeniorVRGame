@@ -4,21 +4,28 @@ using UnityEngine;
 
 public class ScaleLivingroom : MonoBehaviour
 {
-    [SerializeField] private GameObject livingroom;
+    [SerializeField] private GameObject livingroomTwo;
+    [SerializeField] private Transform spawnPoint;
+    private GameObject clonePrefab;
+
+    private void Start()
+    {
+        clonePrefab = GameObject.Find("Livingroom_Master_Two_Normal(Clone)");
+    }
 
     private void OnTriggerEnter(Collider other)
     {
-        if (other.gameObject.name == "Livingroom_Porch")
+        if (other.gameObject.tag == "Livingroom_Master_Two_Interactable")
         {
-            livingroom.SetActive(true);
+            clonePrefab = Instantiate(livingroomTwo, spawnPoint.position, spawnPoint.rotation);
         }
     }
 
     private void OnTriggerExit(Collider other)
     {
-        if (other.gameObject.name == "Livingroom_Porch")
+        if (other.gameObject.tag == "Livingroom_Master_Two_Interactable")
         {
-            livingroom.SetActive(false);
+            Destroy(clonePrefab);
         }
     }
 }

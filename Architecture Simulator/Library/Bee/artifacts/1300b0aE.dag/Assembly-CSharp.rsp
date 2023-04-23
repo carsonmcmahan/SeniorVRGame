@@ -389,7 +389,6 @@
 "Assets/Scripts/Scale Mechanic/ScaleKitchen.cs"
 "Assets/Scripts/Scale Mechanic/ScaleLivingroom.cs"
 "Assets/Scripts/Scale Mechanic/ScaleRoof.cs"
-"Assets/Scripts/Scale Mechanic/TestScaleScript.cs"
 "Assets/Scripts/UI Elements/SpawnInteractables.cs"
 "Assets/Scripts/UI Elements/UIManager.cs"
 "Assets/Scripts/VR/CharacterControllerHelper.cs"

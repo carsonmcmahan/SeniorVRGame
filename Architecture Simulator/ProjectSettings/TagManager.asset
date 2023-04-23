@@ -11,6 +11,7 @@ TagManager:
   - Roof_Two_Interactable
   - Kitchen_Master_Two_Interactable
   - Destroy
+  - Roof
   layers:
   - Default
   - TransparentFX

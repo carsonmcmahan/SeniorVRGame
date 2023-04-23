@@ -354,6 +354,37 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 33666026}
   m_CullTransparentMesh: 1
+--- !u!1 &76764524
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 76764525}
+  m_Layer: 0
+  m_Name: LinvingroomTwoSpawnPoint
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &76764525
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 76764524}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 6.18, y: 52.03, z: 6.9}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1725634803}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &106068324
 GameObject:
   m_ObjectHideFlags: 0
@@ -1659,12 +1690,12 @@ GameObject:
   - component: {fileID: 258839806}
   - component: {fileID: 258839809}
   m_Layer: 0
-  m_Name: RoofSocket
+  m_Name: RoofTwoSocket
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &258839806
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1757,7 +1788,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7280f5eb744c2a84ea55d03422fde3f0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  roof: {fileID: 1981850422}
+  roofTwo: {fileID: 7178110446632626266, guid: 72d4a09d398811b4b8ef6bd7bef81a12, type: 3}
+  spawnPoint: {fileID: 1206314969}
 --- !u!1 &269420837
 GameObject:
   m_ObjectHideFlags: 0
@@ -3223,6 +3255,119 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &419578972
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 419578973}
+  - component: {fileID: 419578976}
+  - component: {fileID: 419578975}
+  - component: {fileID: 419578974}
+  m_Layer: 0
+  m_Name: RoofTwoSocket (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &419578973
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 419578972}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.6, y: 1.936, z: 0.04}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 982364966}
+  m_Father: {fileID: 1962592382}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &419578974
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 419578972}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7280f5eb744c2a84ea55d03422fde3f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  roofTwo: {fileID: 7178110446632626266, guid: 72d4a09d398811b4b8ef6bd7bef81a12, type: 3}
+  spawnPoint: {fileID: 1206314969}
+--- !u!114 &419578975
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 419578972}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 60523e0647cc6ab43acc73cb266a32a7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_InteractionManager: {fileID: 637422608}
+  m_InteractionLayerMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_InteractionLayers:
+    m_Bits: 32
+  m_AttachTransform: {fileID: 982364966}
+  m_KeepSelectedTargetValid: 1
+  m_StartingSelectedInteractable: {fileID: 0}
+  m_HoverEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_HoverExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_SelectEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_SelectExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnHoverEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnHoverExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnSelectEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnSelectExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_ShowInteractableHoverMeshes: 1
+  m_InteractableHoverMeshMaterial: {fileID: 0}
+  m_InteractableCantHoverMeshMaterial: {fileID: 0}
+  m_SocketActive: 1
+  m_InteractableHoverScale: 1
+  m_RecycleDelayTime: 1
+--- !u!65 &419578976
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 419578972}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.858861, y: 1.14, z: 1.844062}
+  m_Center: {x: 0.5907644, y: -0.3031322, z: -0.04052502}
 --- !u!1 &425096530
 GameObject:
   m_ObjectHideFlags: 0
@@ -5259,7 +5404,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Bathrooms
+  m_text: Bedrooms
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -5519,6 +5664,42 @@ Transform:
   m_Father: {fileID: 926168866}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
+--- !u!1 &856924408
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 856924409}
+  m_Layer: 0
+  m_Name: DummyHouse
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &856924409
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 856924408}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -32.89, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 7560130673946568770}
+  - {fileID: 1948325992}
+  - {fileID: 1196525402}
+  - {fileID: 1710112720}
+  - {fileID: 250061983}
+  m_Father: {fileID: 0}
+  m_RootOrder: 11
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &869440362
 GameObject:
   m_ObjectHideFlags: 0
@@ -6158,6 +6339,37 @@ MonoBehaviour:
   modelsPanel: {fileID: 1322099921}
   houseOneButtons: {fileID: 1198869907}
   houseTwoButtons: {fileID: 1351115634}
+--- !u!1 &973658031
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 973658032}
+  m_Layer: 0
+  m_Name: GarageTwoSpawnPoint
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &973658032
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 973658031}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -3.74, y: 51.89, z: 1.69}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1725634803}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &981705503
 GameObject:
   m_ObjectHideFlags: 0
@@ -6168,7 +6380,7 @@ GameObject:
   m_Component:
   - component: {fileID: 981705504}
   m_Layer: 0
-  m_Name: SpawnPoint
+  m_Name: BedroomsTwoSpawnPoint
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6182,13 +6394,44 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 981705503}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -3.48, y: 51.89, z: -5.78}
+  m_LocalPosition: {x: -3.48, y: 51.89, z: -7.04}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1725634803}
-  m_RootOrder: 5
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &982364965
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 982364966}
+  m_Layer: 0
+  m_Name: AttachPoint
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &982364966
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 982364965}
+  m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
+  m_LocalPosition: {x: 0.045, y: -0.754, z: 0.0328}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 419578973}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
 --- !u!1 &985841614 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: b572927c6df52ca45ba6c25b41b1746f,
@@ -6804,7 +7047,7 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 1725634803}
+    m_TransformParent: {fileID: 856924409}
     m_Modifications:
     - target: {fileID: 7236213673817471672, guid: 3f0fda65ea3c73e49a9c609766be2278,
         type: 3}
@@ -6869,7 +7112,7 @@ PrefabInstance:
     - target: {fileID: 8009618212390346754, guid: 3f0fda65ea3c73e49a9c609766be2278,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3f0fda65ea3c73e49a9c609766be2278, type: 3}
@@ -7501,7 +7744,7 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 1725634803}
+    m_TransformParent: {fileID: 856924409}
     m_Modifications:
     - target: {fileID: 8316000079693262559, guid: 538b2079144517f4b85ada0f27bec468,
         type: 3}
@@ -7566,7 +7809,7 @@ PrefabInstance:
     - target: {fileID: 8656919794035782757, guid: 538b2079144517f4b85ada0f27bec468,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 538b2079144517f4b85ada0f27bec468, type: 3}
@@ -7974,6 +8217,37 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1201938807}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &1206314968
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1206314969}
+  m_Layer: 0
+  m_Name: RoofTwoSpawnPoint
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1206314969
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1206314968}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.99, y: 55.22, z: 0.53}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1725634803}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1240701284
 GameObject:
   m_ObjectHideFlags: 0
@@ -9518,7 +9792,7 @@ GameObject:
   - component: {fileID: 1569090529}
   - component: {fileID: 1569090532}
   m_Layer: 0
-  m_Name: KitchenSocket
+  m_Name: KitchenTwoSocket
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -9616,7 +9890,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f815a6b8cff5eb8418279ad5c7893fa9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  kitchen: {fileID: 1196525399}
+  kitchenTwo: {fileID: 2908232812330951606, guid: 77c9b81d673145e42b3b5d61788c60df,
+    type: 3}
+  spawnPoint: {fileID: 2086648923}
 --- !u!1 &1589138755
 GameObject:
   m_ObjectHideFlags: 0
@@ -10842,7 +11118,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1725634803}
   m_Layer: 0
-  m_Name: ---Buildings---
+  m_Name: ---BuildingsSpawnPoints---
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -10860,12 +11136,11 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 7560130673946568770}
-  - {fileID: 1948325992}
-  - {fileID: 1196525402}
-  - {fileID: 1710112720}
-  - {fileID: 250061983}
   - {fileID: 981705504}
+  - {fileID: 2086648923}
+  - {fileID: 973658032}
+  - {fileID: 76764525}
+  - {fileID: 1206314969}
   m_Father: {fileID: 0}
   m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -11357,7 +11632,7 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 1725634803}
+    m_TransformParent: {fileID: 856924409}
     m_Modifications:
     - target: {fileID: 5024431888149468283, guid: 83c4a3752cb5f7e418fe20b2ad3a5fd6,
         type: 3}
@@ -11367,7 +11642,7 @@ PrefabInstance:
     - target: {fileID: 5024431888149468283, guid: 83c4a3752cb5f7e418fe20b2ad3a5fd6,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5688484493778423489, guid: 83c4a3752cb5f7e418fe20b2ad3a5fd6,
         type: 3}
@@ -11710,7 +11985,7 @@ GameObject:
   - component: {fileID: 1882984766}
   - component: {fileID: 1882984769}
   m_Layer: 0
-  m_Name: LivingroomSocket
+  m_Name: LivingroomTwoSocket
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -11808,7 +12083,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a1fbdb2c0a3454c41b60980664c018ca, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  livingroom: {fileID: 1819992163}
+  livingroomTwo: {fileID: 5867074755555325031, guid: 5727fec87a239f344bd7f051d073b367,
+    type: 3}
+  spawnPoint: {fileID: 76764525}
 --- !u!1 &1947893961
 GameObject:
   m_ObjectHideFlags: 0
@@ -11822,7 +12099,7 @@ GameObject:
   - component: {fileID: 1947893962}
   - component: {fileID: 1947893965}
   m_Layer: 0
-  m_Name: GarageSocket
+  m_Name: GarageTwoSocket
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -11920,7 +12197,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7048ff972dd16ca419c72cfc24610594, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  garage: {fileID: 1181679946}
+  garageTwo: {fileID: 6064233441885110008, guid: 6b963147acafbb14cae1d6dc6e6d6373,
+    type: 3}
+  spawnPoint: {fileID: 973658032}
 --- !u!4 &1948325992 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8316000079693262559, guid: 538b2079144517f4b85ada0f27bec468,
@@ -12185,6 +12464,7 @@ Transform:
   - {fileID: 1882984768}
   - {fileID: 1947893964}
   - {fileID: 258839808}
+  - {fileID: 419578973}
   m_Father: {fileID: 0}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -12193,7 +12473,7 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 1725634803}
+    m_TransformParent: {fileID: 856924409}
     m_Modifications:
     - target: {fileID: 1216022508362080321, guid: e76ea2de97f97fc47adee7e28c4aba2d,
         type: 3}
@@ -12258,7 +12538,7 @@ PrefabInstance:
     - target: {fileID: 1993967273848437499, guid: e76ea2de97f97fc47adee7e28c4aba2d,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e76ea2de97f97fc47adee7e28c4aba2d, type: 3}
@@ -12643,7 +12923,7 @@ GameObject:
   - component: {fileID: 2016464311}
   - component: {fileID: 2016464314}
   m_Layer: 0
-  m_Name: BedroomSocket
+  m_Name: BedroomTwoSocket
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -12741,8 +13021,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f3bd84883f8e5fc4b95599008e94abbe, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  prefab: {fileID: 5622636926210550041, guid: 5e6a696fb6cfc8f4191a99ab94210e55, type: 3}
-  clonePrefab: {fileID: 0}
+  bedroomTwo: {fileID: 5622636926210550041, guid: 5e6a696fb6cfc8f4191a99ab94210e55,
+    type: 3}
   spawnPoint: {fileID: 981705504}
 --- !u!1 &2070216575
 GameObject:
@@ -12862,6 +13142,37 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2086648922
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2086648923}
+  m_Layer: 0
+  m_Name: KitchenTwoSpawnPoint
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2086648923
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2086648922}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 6.53, y: 51.89, z: -4.43}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1725634803}
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2101485374
 GameObject:
@@ -13047,7 +13358,7 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 1725634803}
+    m_TransformParent: {fileID: 856924409}
     m_Modifications:
     - target: {fileID: 8595994634634730635, guid: 7e2e32a8bf748fe42ad96cd81fa27a98,
         type: 3}
@@ -13057,7 +13368,7 @@ PrefabInstance:
     - target: {fileID: 8595994634634730635, guid: 7e2e32a8bf748fe42ad96cd81fa27a98,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8935365133121701425, guid: 7e2e32a8bf748fe42ad96cd81fa27a98,
         type: 3}
