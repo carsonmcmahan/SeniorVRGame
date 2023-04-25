@@ -13,7 +13,7 @@ public class DestroyInteractable : MonoBehaviour
         {
             Destroy(spawnInteracs.cloneBedroomsTwo);
             spawnInteracs.bedroomsPressed = false;
-
+            
             Debug.Log("Object Destroyed!");
         }
 
@@ -37,7 +37,7 @@ public class DestroyInteractable : MonoBehaviour
         {
             Destroy(spawnInteracs.cloneLivingroomTwo);
             spawnInteracs.livingroomPressed = false;
-
+            spawnInteracs.timerOn = false;
             Debug.Log("Object Destroyed!");
         }
 
