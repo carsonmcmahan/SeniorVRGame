@@ -5864,7 +5864,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &856924409
 Transform:
   m_ObjectHideFlags: 0
@@ -14069,7 +14069,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 2016464310}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 06e58bb0a5858c54c85618a41554b5cf, type: 3}
+  m_Script: {fileID: 11500000, guid: f3bd84883f8e5fc4b95599008e94abbe, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   bedroomTwo: {fileID: 5622636926210550041, guid: 5e6a696fb6cfc8f4191a99ab94210e55,
