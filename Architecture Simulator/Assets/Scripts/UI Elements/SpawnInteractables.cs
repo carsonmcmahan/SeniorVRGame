@@ -29,15 +29,6 @@ public class SpawnInteractables : MonoBehaviour
     public AudioSource bedroomsButton;
     public AudioSource roofButton;
 
-
-    [Header("Timer")]
-    public float timeLeft;
-    public bool timerOn = false;
-    //private TMP_Text timertxt;
-    public GameObject objectExistsTxt;
-
-
-
     public void Start()
     {
         cloneBedroomsTwo = GameObject.Find("bedrooms_two(clone)");
@@ -45,34 +36,6 @@ public class SpawnInteractables : MonoBehaviour
         cloneLivingroomTwo = GameObject.Find("Livingroom_Two(Clone)");
         cloneKitchenTwo = GameObject.Find("Kitchen_Two(Clone)");
         cloneRoofTwo = GameObject.Find("Roof_Two(Clone)");
-    }
-
-    public void Update()
-    {
-        // if(timerOn)
-        // {
-        //     if(timeLeft > 0)
-        //     {
-        //         timeLeft -= Time.deltaTime;
-        //         UpdateTimer(timeLeft);
-        //     }
-        //     else
-        //     {
-        //         Debug.Log("Time is Up!");
-        //         timeLeft = 0;
-        //         timerOn = false;
-        //     }
-        // }
-    }
-
-    void UpdateTimer(float currentTime)
-    {
-        currentTime += 1;
-
-        float minutes = Mathf.FloorToInt(currentTime / 60);
-        float seconds = Mathf.FloorToInt(currentTime % 60);
-
-        //Debug.Log(timertxt.text = string.Format("{0:00} : {1:00}", minutes, seconds));
     }
 
     public void SpawnLivingroom(GameObject prefab)
@@ -86,7 +49,6 @@ public class SpawnInteractables : MonoBehaviour
         else
         {
             livingroomButton.Play();
-            objectExistsTxt.SetActive(true);
             Debug.Log("Object already in scene! " + livingroomPressed);
         }
     }
