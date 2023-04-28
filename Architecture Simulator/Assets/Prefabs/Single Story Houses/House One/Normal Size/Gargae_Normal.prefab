@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 4362913391971276113}
   - component: {fileID: 1975067943979901339}
   m_Layer: 0
-  m_Name: Gargae
+  m_Name: Gargae_Normal
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

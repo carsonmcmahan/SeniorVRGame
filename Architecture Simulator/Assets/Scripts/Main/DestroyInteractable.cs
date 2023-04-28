@@ -9,6 +9,7 @@ public class DestroyInteractable : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
+
         if (other.gameObject.tag == "Bedrooms_Two_Interactable")
         {
             Destroy(spawnInteracs.cloneBedroomsTwo);

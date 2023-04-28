@@ -1973,10 +1973,11 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 965678022}
         m_TargetAssemblyTypeName: SpawnInteractables, Assembly-CSharp
-        m_MethodName: SpawnLivingroom
+        m_MethodName: SpawnBathroomOne
         m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgument: {fileID: 5893714806912405366, guid: 0878e31bd036c3b48885adbcfd63b920,
+            type: 3}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
@@ -4566,10 +4567,11 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 965678022}
         m_TargetAssemblyTypeName: SpawnInteractables, Assembly-CSharp
-        m_MethodName: SpawnGarage
+        m_MethodName: SpawnMasterOne
         m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgument: {fileID: 4574650122595695746, guid: 255e7fcef8a830642982e46c18e7d572,
+            type: 3}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
@@ -6536,6 +6538,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   spawnLocation: {fileID: 1690050315}
+  cloneBedroomOne: {fileID: 0}
+  cloneBedroomTwo: {fileID: 0}
+  cloneGarageOne: {fileID: 0}
+  cloneMasterOne: {fileID: 0}
+  cloneBathroomOne: {fileID: 0}
+  cloneKitchenOne: {fileID: 0}
+  cloneRoofOne: {fileID: 0}
+  bedroomOnePressed: 0
+  bedroomTwoPressed: 0
+  garageOnePressed: 0
+  masterOnePressed: 0
+  bathroomOnePressed: 0
+  kitchenOnePressed: 0
+  roofOnePressed: 0
   cloneLivingroomTwo: {fileID: 0}
   cloneGarageTwo: {fileID: 0}
   cloneKitchenTwo: {fileID: 0}
@@ -8246,10 +8262,11 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 965678022}
         m_TargetAssemblyTypeName: SpawnInteractables, Assembly-CSharp
-        m_MethodName: SpawnKitchen
+        m_MethodName: SpawnKitchenOne
         m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgument: {fileID: 4351330419069523119, guid: a242693d25248044d8034567c3a7a156,
+            type: 3}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
@@ -9390,10 +9407,11 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 965678022}
         m_TargetAssemblyTypeName: SpawnInteractables, Assembly-CSharp
-        m_MethodName: SpawnBedrooms
+        m_MethodName: SpawnBedromTwo
         m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgument: {fileID: 3317740063997669364, guid: 6b346efa0d79ed248b8a9d7dbeefb57b,
+            type: 3}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
@@ -9961,10 +9979,11 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 965678022}
         m_TargetAssemblyTypeName: SpawnInteractables, Assembly-CSharp
-        m_MethodName: SpawnRoof
+        m_MethodName: SpawnRoofOne
         m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgument: {fileID: 2657841124301874074, guid: 03efb23e0ae882f48979f8946c1f9312,
+            type: 3}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
@@ -12975,10 +12994,11 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 965678022}
         m_TargetAssemblyTypeName: SpawnInteractables, Assembly-CSharp
-        m_MethodName: SpawnBedrooms
+        m_MethodName: SpawnBedroomOne
         m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgument: {fileID: 749383501334141745, guid: c8beb6912d1fae14988d2a60ee5fb34a,
+            type: 3}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
@@ -13913,10 +13933,11 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 965678022}
         m_TargetAssemblyTypeName: SpawnInteractables, Assembly-CSharp
-        m_MethodName: SpawnGarage
+        m_MethodName: SpawnGarageOne
         m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgument: {fileID: 1815519309980139116, guid: d2f30326a93abad44aa9d94c4e565fb0,
+            type: 3}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
