@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638176298136572932
-    m_Hash: 441086887
+      ticks: 638262513752247590
+    m_Hash: 430567683
   m_LockFileStatus:
     m_FilePath: C:/Users/carso/Desktop/Git Repos/SeniorVRGame/Architecture Simulator/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638176298136577930
-    m_Hash: 72497873
+      ticks: 638262513752403181
+    m_Hash: 413720242
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
@@ -108,6 +108,7 @@ m_ResolvedPackages:
     - 2.0.1
     - 2.0.3
     - 2.0.4
+    - 2.0.5
     - 2.1.0-preview.3
     - 2.1.0-preview.5
     - 2.1.0-preview.6
@@ -124,6 +125,7 @@ m_ResolvedPackages:
     - 2.0.1
     - 2.0.3
     - 2.0.4
+    - 2.0.5
     - 2.1.0-preview.3
     - 2.1.0-preview.5
     - 2.1.0-preview.6
@@ -404,13 +406,17 @@ m_ResolvedPackages:
     - 3.0.18
     - 3.0.20
     - 3.0.21
+    - 3.0.22
+    - 3.0.24
     compatible:
     - 3.0.16
     - 3.0.17
     - 3.0.18
     - 3.0.20
     - 3.0.21
-    verified: 3.0.21
+    - 3.0.22
+    - 3.0.24
+    verified: 3.0.24
   dependencies:
   - name: com.unity.ext.nunit
     version: 1.0.6
@@ -697,6 +703,95 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 2.2.2
     nextVersion: 
+- packageId: com.unity.terrain-tools@4.0.5
+  testable: 0
+  isDirectDependency: 1
+  version: 4.0.5
+  source: 1
+  resolvedPath: C:\Users\carso\Desktop\Git Repos\SeniorVRGame\Architecture Simulator\Library\PackageCache\com.unity.terrain-tools@4.0.5
+  assetPath: Packages/com.unity.terrain-tools
+  name: com.unity.terrain-tools
+  displayName: Terrain Tools
+  author:
+    name: 
+    email: 
+    url: 
+  category: 
+  type: asset
+  description: "The Terrain Tools package adds additional Terrain sculpting brushes
+    and tools to Unity. This add-on toolset is suitable if you require more control
+    over the appearance of your Terrain, and want to streamline Terrain workflows.
+    It\u2019s also useful when you want to make more complex-looking Terrain, or
+    author Terrain Texture data in external digital content creation tools."
+  status: 0
+  errors: []
+  versions:
+    all:
+    - 1.1.2-preview
+    - 1.1.4-preview
+    - 2.0.0-preview
+    - 2.0.1-preview
+    - 2.0.2-preview
+    - 3.0.0-preview
+    - 3.0.1-preview
+    - 3.0.2-preview.2
+    - 3.0.2-preview.3
+    - 4.0.0-pre.2
+    - 4.0.0
+    - 4.0.3
+    - 4.0.5
+    - 5.0.0-pre.2
+    - 5.0.0-pre.3
+    - 5.0.0-pre.4
+    - 5.0.1
+    - 5.0.2
+    - 5.0.3
+    - 5.1.0-pre.1
+    - 5.1.0
+    compatible:
+    - 4.0.3
+    - 4.0.5
+    verified: 4.0.5
+  dependencies:
+  - name: com.unity.modules.terrain
+    version: 1.0.0
+  - name: com.unity.modules.terrainphysics
+    version: 1.0.0
+  resolvedDependencies:
+  - name: com.unity.modules.terrain
+    version: 1.0.0
+  - name: com.unity.modules.terrainphysics
+    version: 1.0.0
+  - name: com.unity.modules.physics
+    version: 1.0.0
+  keywords:
+  - Terrain
+  - Brush
+  - Toolbox
+  - Mask
+  - Filter
+  - Noise
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
+  hideInEditor: 0
+  isAssetStorePackage: 0
+  datePublishedTicks: 638118785270000000
+  documentationUrl: https://docs.unity3d.com/Packages/com.unity.terrain-tools@4.0/manual/index.html
+  hasRepository: 1
+  repository:
+    type: git
+    url: https://github.com/Unity-Technologies/TerrainTools.git
+    revision: f9e06525d01a2a886b0564155e7da678642713c9
+    path: 
+  unityLifecycle:
+    version: 4.0.3
+    nextVersion: 
 - packageId: com.unity.test-framework@1.1.33
   testable: 0
   isDirectDependency: 1
@@ -756,6 +851,9 @@ m_ResolvedPackages:
     - 1.3.2
     - 1.3.3
     - 1.3.4
+    - 1.3.5
+    - 1.3.7
+    - 1.3.8
     - 2.0.1-exp.1
     - 2.0.1-exp.2
     - 2.0.1-pre.12
@@ -768,6 +866,9 @@ m_ResolvedPackages:
     - 1.3.2
     - 1.3.3
     - 1.3.4
+    - 1.3.5
+    - 1.3.7
+    - 1.3.8
     - 2.0.1-exp.1
     - 2.0.1-exp.2
     - 2.0.1-pre.12
@@ -934,6 +1035,7 @@ m_ResolvedPackages:
     - 3.2.0-pre.2
     - 3.2.0-pre.3
     - 3.2.0-pre.4
+    - 3.2.0-pre.5
     - 4.0.0-pre.1
     - 4.0.0-pre.2
     compatible:
@@ -942,6 +1044,7 @@ m_ResolvedPackages:
     - 3.2.0-pre.2
     - 3.2.0-pre.3
     - 3.2.0-pre.4
+    - 3.2.0-pre.5
     verified: 3.0.6
   dependencies:
   - name: com.unity.ugui
@@ -1069,6 +1172,7 @@ m_ResolvedPackages:
     - 1.6.2
     - 1.6.3
     - 1.6.4
+    - 1.6.5
     - 1.7.0-pre.1
     - 1.7.0-pre.2
     - 1.7.0
@@ -1076,11 +1180,15 @@ m_ResolvedPackages:
     - 1.7.2
     - 1.7.3
     - 1.7.4
+    - 1.7.5
     - 1.8.0
     - 1.8.1
     - 1.8.2
+    - 1.8.3
+    - 1.8.4
     compatible:
     - 1.6.4
+    - 1.6.5
     - 1.7.0-pre.1
     - 1.7.0-pre.2
     - 1.7.0
@@ -1088,10 +1196,13 @@ m_ResolvedPackages:
     - 1.7.2
     - 1.7.3
     - 1.7.4
+    - 1.7.5
     - 1.8.0
     - 1.8.1
     - 1.8.2
-    verified: 1.6.4
+    - 1.8.3
+    - 1.8.4
+    verified: 1.6.5
   dependencies:
   - name: com.unity.modules.director
     version: 1.0.0
@@ -1161,6 +1272,8 @@ m_ResolvedPackages:
   versions:
     all:
     - 1.0.0
+    - 3.0.0-exp.1
+    - 3.0.0-exp.3
     compatible:
     - 1.0.0
     verified: 1.0.0
@@ -1341,6 +1454,12 @@ m_ResolvedPackages:
     - 2.3.0-pre.1
     - 2.3.0
     - 2.3.1
+    - 2.3.2
+    - 2.4.0-pre.1
+    - 2.4.0-pre.2
+    - 2.4.0
+    - 2.4.1
+    - 2.4.3
     compatible:
     - 2.0.4
     - 2.1.0-pre.1
@@ -1349,6 +1468,12 @@ m_ResolvedPackages:
     - 2.3.0-pre.1
     - 2.3.0
     - 2.3.1
+    - 2.3.2
+    - 2.4.0-pre.1
+    - 2.4.0-pre.2
+    - 2.4.0
+    - 2.4.1
+    - 2.4.3
     verified: 2.0.4
   dependencies:
   - name: com.unity.inputsystem
@@ -1493,11 +1618,13 @@ m_ResolvedPackages:
     - 4.2.1
     - 4.3.1
     - 4.3.3
+    - 4.4.0
     compatible:
     - 4.2.0
     - 4.2.1
     - 4.3.1
     - 4.3.3
+    - 4.4.0
     verified: 4.2.1
   dependencies:
   - name: com.unity.modules.subsystems
@@ -1597,10 +1724,16 @@ m_ResolvedPackages:
     - 1.5.3
     - 1.6.0
     - 1.7.0
+    - 1.8.0
+    - 1.8.1
+    - 1.8.2
     compatible:
     - 1.5.3
     - 1.6.0
     - 1.7.0
+    - 1.8.0
+    - 1.8.1
+    - 1.8.2
     verified: 1.5.3
   dependencies:
   - name: com.unity.xr.management
@@ -3590,10 +3723,14 @@ m_ResolvedPackages:
     - 1.4.4
     - 1.5.0
     - 1.5.1
+    - 1.6.1
+    - 1.6.3
     compatible:
     - 1.4.4
     - 1.5.0
     - 1.5.1
+    - 1.6.1
+    - 1.6.3
     verified: 1.4.4
   dependencies:
   - name: com.unity.modules.uielements
@@ -3743,6 +3880,9 @@ m_ResolvedPackages:
     - 2.2.0-pre.1
     - 2.2.0-pre.2
     - 2.2.0
+    - 2.2.1
+    - 2.2.2
+    - 2.4.0-exp.1
     compatible:
     - 2.0.0
     - 2.0.1
@@ -3752,6 +3892,9 @@ m_ResolvedPackages:
     - 2.2.0-pre.1
     - 2.2.0-pre.2
     - 2.2.0
+    - 2.2.1
+    - 2.2.2
+    - 2.4.0-exp.1
     verified: 2.0.1
   dependencies:
   - name: com.unity.modules.xr
@@ -3823,10 +3966,14 @@ m_ResolvedPackages:
     - 1.0.6
     - 2.0.2
     - 2.0.3
+    - 2.0.4
+    - 2.0.5
     compatible:
     - 1.0.6
     - 2.0.2
     - 2.0.3
+    - 2.0.4
+    - 2.0.5
     verified: 1.0.6
   dependencies: []
   resolvedDependencies: []
@@ -4065,6 +4212,7 @@ m_ResolvedPackages:
     - 3.2.3-pre.1
     - 3.2.3
     - 3.3.0
+    - 4.0.0
     compatible:
     - 3.2.2
     - 3.2.3-pre.1
@@ -4238,10 +4386,12 @@ m_ResolvedPackages:
     - 1.2.1
     - 1.2.2
     - 1.2.3
+    - 1.2.4
     compatible:
     - 1.2.2
     - 1.2.3
-    verified: 1.2.3
+    - 1.2.4
+    verified: 1.2.4
   dependencies:
   - name: com.unity.test-framework
     version: 1.0.16
@@ -4329,12 +4479,16 @@ m_ResolvedPackages:
     - 1.7.1
     - 1.8.1
     - 1.8.2
+    - 1.9.0
+    - 1.10.1
     compatible:
     - 1.6.0
     - 1.7.0
     - 1.7.1
     - 1.8.1
     - 1.8.2
+    - 1.9.0
+    - 1.10.1
     verified: 1.6.0
   dependencies:
   - name: com.unity.modules.unitywebrequest
@@ -4416,10 +4570,12 @@ m_ResolvedPackages:
     - 3.0.2
     - 3.1.0
     - 3.2.0
+    - 3.2.1
     compatible:
     - 3.0.2
     - 3.1.0
     - 3.2.0
+    - 3.2.1
     verified: 3.0.2
   dependencies: []
   resolvedDependencies: []
