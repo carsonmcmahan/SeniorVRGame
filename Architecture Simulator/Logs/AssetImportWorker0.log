@@ -15,7 +15,7 @@ C:/Users/carso/Desktop/Git Repos/SeniorVRGame/Architecture Simulator
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-53312
+50182
 Successfully changed project path to: C:/Users/carso/Desktop/Git Repos/SeniorVRGame/Architecture Simulator
 C:/Users/carso/Desktop/Git Repos/SeniorVRGame/Architecture Simulator
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,12 +47,12 @@ C:/Users/carso/Desktop/Git Repos/SeniorVRGame/Architecture Simulator
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [17084] Host "[IP] 192.168.0.29 [Port] 0 [Flags] 2 [Guid] 2598519681 [EditorId] 2598519681 [Version] 1048832 [Id] WindowsEditor(7,CaronsDesktop) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [30772] Host "[IP] 192.168.0.29 [Port] 0 [Flags] 2 [Guid] 4152755978 [EditorId] 4152755978 [Version] 1048832 [Id] WindowsEditor(7,CaronsDesktop) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [17084] Host "[IP] 192.168.0.29 [Port] 0 [Flags] 2 [Guid] 2598519681 [EditorId] 2598519681 [Version] 1048832 [Id] WindowsEditor(7,CaronsDesktop) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [30772] Host "[IP] 192.168.0.29 [Port] 0 [Flags] 2 [Guid] 4152755978 [EditorId] 4152755978 [Version] 1048832 [Id] WindowsEditor(7,CaronsDesktop) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 70.93 ms, found 12 plugins.
-Preloading 1 native plugins for Editor in 0.51 ms.
+Refreshing native plugins compatible for Editor in 74.70 ms, found 12 plugins.
+Preloading 1 native plugins for Editor in 0.50 ms.
 Initialize engine version: 2021.3.16f1 (4016570cf34f)
 [Subsystems] Discovering subsystems at path D:/Unity/2021.3.16f1/Editor/Data/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path C:/Users/carso/Desktop/Git Repos/SeniorVRGame/Architecture Simulator/Assets
@@ -67,54 +67,54 @@ Initialize mono
 Mono path[0] = 'D:/Unity/2021.3.16f1/Editor/Data/Managed'
 Mono path[1] = 'D:/Unity/2021.3.16f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'D:/Unity/2021.3.16f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56492
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56648
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: D:/Unity/2021.3.16f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: D:/Unity/2021.3.16f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001465 seconds.
+Registered in 0.001463 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 60.14 ms, found 12 plugins.
-Preloading 1 native plugins for Editor in 0.18 ms.
+Refreshing native plugins compatible for Editor in 58.39 ms, found 12 plugins.
+Preloading 1 native plugins for Editor in 0.13 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.399 seconds
+- Completed reload, in  0.384 seconds
 Domain Reload Profiling:
-	ReloadAssembly (399ms)
-		BeginReloadAssembly (42ms)
+	ReloadAssembly (384ms)
+		BeginReloadAssembly (45ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (297ms)
-			LoadAssemblies (42ms)
+			CreateAndSetChildDomain (0ms)
+		EndReloadAssembly (281ms)
+			LoadAssemblies (44ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (67ms)
+			SetupTypeCache (64ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (16ms)
-			SetupLoadedEditorAssemblies (181ms)
+			RebuildScriptCaches (15ms)
+			SetupLoadedEditorAssemblies (172ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (33ms)
+				InitializePlatformSupportModulesInManaged (32ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (60ms)
+				RefreshPlugins (59ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (59ms)
-				ProcessInitializeOnLoadMethodAttributes (27ms)
+				ProcessInitializeOnLoadAttributes (55ms)
+				ProcessInitializeOnLoadMethodAttributes (26ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.009502 seconds.
+Registered in 0.010632 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\carso\Desktop\Git Repos\SeniorVRGame\Architecture Simulator\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\carso\Desktop\Git Repos\SeniorVRGame\Architecture Simulator\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 58.09 ms, found 12 plugins.
-Preloading 1 native plugins for Editor in 0.07 ms.
+Refreshing native plugins compatible for Editor in 59.31 ms, found 12 plugins.
+Preloading 1 native plugins for Editor in 0.06 ms.
 Package Manager log level set to [2]
 System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
   at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0003d] in C:\Users\carso\Desktop\Git Repos\SeniorVRGame\Architecture Simulator\Library\PackageCache\com.unity.xr.oculus@3.2.2\Runtime\OculusLoader.cs:296 
@@ -132,29 +132,29 @@ UnityEngine.Debug:LogError (object)
 UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
 
 Mono: successfully reloaded assembly
-- Completed reload, in  0.939 seconds
+- Completed reload, in  0.974 seconds
 Domain Reload Profiling:
-	ReloadAssembly (940ms)
-		BeginReloadAssembly (208ms)
+	ReloadAssembly (974ms)
+		BeginReloadAssembly (200ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
+			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (130ms)
-		EndReloadAssembly (660ms)
-			LoadAssemblies (85ms)
+			CreateAndSetChildDomain (135ms)
+		EndReloadAssembly (700ms)
+			LoadAssemblies (71ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (185ms)
+			SetupTypeCache (175ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (37ms)
-			SetupLoadedEditorAssemblies (347ms)
+			RebuildScriptCaches (42ms)
+			SetupLoadedEditorAssemblies (376ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (7ms)
+				InitializePlatformSupportModulesInManaged (8ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (58ms)
+				RefreshPlugins (59ms)
 				BeforeProcessingInitializeOnLoad (59ms)
-				ProcessInitializeOnLoadAttributes (200ms)
-				ProcessInitializeOnLoadMethodAttributes (21ms)
+				ProcessInitializeOnLoadAttributes (230ms)
+				ProcessInitializeOnLoadMethodAttributes (19ms)
 				AfterProcessingInitializeOnLoad (1ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
@@ -162,13 +162,13 @@ Domain Reload Profiling:
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 1.06 ms, found 12 plugins.
-Preloading 1 native plugins for Editor in 0.15 ms.
-Unloading 4409 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 54 unused Assets / (114.6 KB). Loaded Objects now: 4874.
-Memory consumption went from 167.5 MB to 167.4 MB.
-Total: 3.030000 ms (FindLiveObjects: 0.384000 ms CreateObjectMapping: 0.096200 ms MarkObjects: 2.378900 ms  DeleteObjects: 0.167500 ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 1.15 ms, found 12 plugins.
+Preloading 1 native plugins for Editor in 0.11 ms.
+Unloading 4595 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 76 unused Assets / (1.6 MB). Loaded Objects now: 5058.
+Memory consumption went from 181.8 MB to 180.2 MB.
+Total: 4.071400 ms (FindLiveObjects: 0.358900 ms CreateObjectMapping: 0.250300 ms MarkObjects: 3.073600 ms  DeleteObjects: 0.386900 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -183,249 +183,94 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 418876.219211 seconds.
-  path: Assets/Scenes/MainMenu.unity
-  artifactKey: Guid(48c0f75bb34c9a34a9d52a0873c159d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/MainMenu.unity using Guid(48c0f75bb34c9a34a9d52a0873c159d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f74b148e99e9000897701d2c4164913') in 0.014263 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.482661 seconds.
-  path: Assets/Scenes/TutorialLevel.unity
-  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/TutorialLevel.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1bc589d270cde256a2a37aca774efb0b') in 0.024021 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.507528 seconds.
-  path: Assets/Scenes/AudioTestScene.unity
-  artifactKey: Guid(b262caee32f698a4b9679cf9a19752b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/AudioTestScene.unity using Guid(b262caee32f698a4b9679cf9a19752b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1493adc2945ec14a4522915acd5b5ae') in 0.010593 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.562072 seconds.
-  path: Assets/Prefabs
-  artifactKey: Guid(f7602eff1aa3d1b44924b757b3c77f4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs using Guid(f7602eff1aa3d1b44924b757b3c77f4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80d5d6d5b37c2c73c385f6e11a51d5fb') in 0.007475 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 6.599776 seconds.
-  path: Assets/Downloaded Assets/Wooden Floor Pack
-  artifactKey: Guid(2f3a6c8d824880d46b2454a23ca2698a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Downloaded Assets/Wooden Floor Pack using Guid(2f3a6c8d824880d46b2454a23ca2698a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0862bd522e942686848273150c392fb9') in 0.018582 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 19.282968 seconds.
-  path: Assets/Scenes/Main
-  artifactKey: Guid(956a313a51f0ff04c96ee300cf0a19bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Main using Guid(956a313a51f0ff04c96ee300cf0a19bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc0ae8e59a3a5d4eaab74f5a47e43d79') in 0.028494 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 10.761795 seconds.
-  path: Assets/Scenes/Testing
-  artifactKey: Guid(eada5176184283d4fa803e403ace7c54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Testing using Guid(eada5176184283d4fa803e403ace7c54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1049f679a0db486041a5bcd696ff3d02') in 0.007373 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 94.950630 seconds.
-  path: Assets/Downloaded Assets/ModularFirstPersonController
-  artifactKey: Guid(18bec7c97fd4f5d4db1d34d0da99f17c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Downloaded Assets/ModularFirstPersonController using Guid(18bec7c97fd4f5d4db1d34d0da99f17c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75996f2554da0b1d5abde3291e758a28') in 0.018725 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.008922 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\carso\Desktop\Git Repos\SeniorVRGame\Architecture Simulator\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\carso\Desktop\Git Repos\SeniorVRGame\Architecture Simulator\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Native extension for WindowsStandalone target not found
-Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 0.72 ms, found 12 plugins.
-Preloading 1 native plugins for Editor in 0.09 ms.
-System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
-  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0003d] in C:\Users\carso\Desktop\Git Repos\SeniorVRGame\Architecture Simulator\Library\PackageCache\com.unity.xr.oculus@3.2.2\Runtime\OculusLoader.cs:296 
-  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\carso\Desktop\Git Repos\SeniorVRGame\Architecture Simulator\Library\PackageCache\com.unity.xr.oculus@3.2.2\Runtime\OculusLoader.cs:281 
-  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
-  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <75633565436c42f0a6426b33f0132ade>:0 
-   --- End of inner exception stack trace ---
-  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <75633565436c42f0a6426b33f0132ade>:0 
-  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <75633565436c42f0a6426b33f0132ade>:0 
-  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x000a5] in <11d97693183d4a6bb35c29ae7882c66b>:0 
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogError (object)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+  Time since last request: 322814.200023 seconds.
+  path: Assets/Terrrain Data/ForestMountain.asset
+  artifactKey: Guid(3837bba058f26af4785a40cf9323d2c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrrain Data/ForestMountain.asset using Guid(3837bba058f26af4785a40cf9323d2c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 1.786855 seconds  code(4) message(Build asset version error: assets/terrrain data/forestmountain.asset in SourceAssetDB has modification time of '2023-07-29T18:59:21.896197Z' while content on disk has modification time of '0001-01-01T00:00:00Z' with error code 2
+Stacktrace:
+0x00007ff7338269cd (Unity) StackWalker::GetCurrentCallstack
+0x00007ff73382d589 (Unity) StackWalker::ShowCallstack
+0x00007ff7347b0943 (Unity) GetStacktrace
+0x00007ff734b4eb24 (Unity) GetAssetHashAndValidate
+0x00007ff734b4a088 (Unity) AssetVersionBuilder::BuildHashOfSourceAssetArray
+0x00007ff734b4805d (Unity) AssetVersionBuilder::BuildAssetVersion
+0x00007ff734acf6aa (Unity) CreateAssetVersionBuilder
+0x00007ff734ad61a3 (Unity) ImportToObjects
+0x00007ff734ad4ed3 (Unity) ImportAsset
+0x00007ff734af7912 (Unity) AssetImportWorker::Import
+0x00007ff734b5e7d4 (Unity) <lambda_61a9544df00a9e76ece93a9d8f6ff838>::operator()
+0x00007ff734b9f392 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)>,asio::io_context::basic_executor_type<std::allocator<void>,0> >::do_complete
+0x00007ff734b8b27e (Unity) asio::detail::win_iocp_io_context::do_one
+0x00007ff734b8cee4 (Unity) asio::detail::win_iocp_io_context::run
+0x00007ff734b9d77e (Unity) IOService::Run
+0x00007ff734b7038f (Unity) AssetImportWorkerClient::Run
+0x00007ff734b3a3d3 (Unity) RunAssetImportWorkerClientV2
+0x00007ff734b3a45b (Unity) RunAssetImporterV2
+0x00007ff734355da8 (Unity) Application::InitializeProject
+0x00007ff7347bb0a8 (Unity) WinMain
+0x00007ff735b6e78e (Unity) __scrt_common_main_seh
+0x00007ffe63e626ad (KERNEL32) BaseThreadInitThunk
+0x00007ffe650aaa68 (ntdll) RtlUserThreadStart
+)
+  ERROR: Build asset version error: assets/terrrain data/forestmountain.asset in SourceAssetDB has modification time of '2023-07-29T18:59:21.896197Z' while content on disk has modification time of '0001-01-01T00:00:00Z' with error code 2
+Stacktrace:
+0x00007ff7338269cd (Unity) StackWalker::GetCurrentCallstack
+0x00007ff73382d589 (Unity) StackWalker::ShowCallstack
+0x00007ff7347b0943 (Unity) GetStacktrace
+0x00007ff734b4eb24 (Unity) GetAssetHashAndValidate
+0x00007ff734b4a088 (Unity) AssetVersionBuilder::BuildHashOfSourceAssetArray
+0x00007ff734b4805d (Unity) AssetVersionBuilder::BuildAssetVersion
+0x00007ff734acf6aa (Unity) CreateAssetVersionBuilder
+0x00007ff734ad61a3 (Unity) ImportToObjects
+0x00007ff734ad4ed3 (Unity) ImportAsset
+0x00007ff734af7912 (Unity) AssetImportWorker::Import
+0x00007ff734b5e7d4 (Unity) <lambda_61a9544df00a9e76ece93a9d8f6ff838>::operator()
+0x00007ff734b9f392 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)>,asio::io_context::basic_executor_type<std::allocator<void>,0> >::do_complete
+0x00007ff734b8b27e (Unity) asio::detail::win_iocp_io_context::do_one
+0x00007ff734b8cee4 (Unity) asio::detail::win_iocp_io_context::run
+0x00007ff734b9d77e (Unity) IOService::Run
+0x00007ff734b7038f (Unity) AssetImportWorkerClient::Run
+0x00007ff734b3a3d3 (Unity) RunAssetImportWorkerClientV2
+0x00007ff734b3a45b (Unity) RunAssetImporterV2
+0x00007ff734355da8 (Unity) Application::InitializeProject
+0x00007ff7347bb0a8 (Unity) WinMain
+0x00007ff735b6e78e (Unity) __scrt_common_main_seh
+0x00007ffe63e626ad (KERNEL32) BaseThreadInitThunk
+0x00007ffe650aaa68 (ntdll) RtlUserThreadStart
 
-Mono: successfully reloaded assembly
-- Completed reload, in  0.722 seconds
-Domain Reload Profiling:
-	ReloadAssembly (723ms)
-		BeginReloadAssembly (94ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (2ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (29ms)
-		EndReloadAssembly (568ms)
-			LoadAssemblies (67ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (185ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (28ms)
-			SetupLoadedEditorAssemblies (251ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (13ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (45ms)
-				ProcessInitializeOnLoadAttributes (171ms)
-				ProcessInitializeOnLoadMethodAttributes (20ms)
-				AfterProcessingInitializeOnLoad (1ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (5ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 4.07 ms, found 12 plugins.
-Preloading 1 native plugins for Editor in 0.05 ms.
-Unloading 4373 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 45 unused Assets / (80.9 KB). Loaded Objects now: 4877.
-Memory consumption went from 165.7 MB to 165.6 MB.
-Total: 2.368200 ms (FindLiveObjects: 0.182100 ms CreateObjectMapping: 0.095900 ms MarkObjects: 2.022000 ms  DeleteObjects: 0.067500 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 15.813794 seconds.
-  path: Assets/Downloaded Assets/Hand Painted Grass  Texture/Texture/Grass_Base_Color.png
-  artifactKey: Guid(3e56fccbd43645846b91452f3498941d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Downloaded Assets/Hand Painted Grass  Texture/Texture/Grass_Base_Color.png using Guid(3e56fccbd43645846b91452f3498941d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd52c131ffe7985315b55acd9f34f8e4d') in 0.143290 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.010801 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\carso\Desktop\Git Repos\SeniorVRGame\Architecture Simulator\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\carso\Desktop\Git Repos\SeniorVRGame\Architecture Simulator\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Native extension for WindowsStandalone target not found
-Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 58.51 ms, found 12 plugins.
-Preloading 1 native plugins for Editor in 0.07 ms.
-System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
-  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0003d] in C:\Users\carso\Desktop\Git Repos\SeniorVRGame\Architecture Simulator\Library\PackageCache\com.unity.xr.oculus@3.2.2\Runtime\OculusLoader.cs:296 
-  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\carso\Desktop\Git Repos\SeniorVRGame\Architecture Simulator\Library\PackageCache\com.unity.xr.oculus@3.2.2\Runtime\OculusLoader.cs:281 
-  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
-  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <75633565436c42f0a6426b33f0132ade>:0 
-   --- End of inner exception stack trace ---
-  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <75633565436c42f0a6426b33f0132ade>:0 
-  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <75633565436c42f0a6426b33f0132ade>:0 
-  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x000a5] in <11d97693183d4a6bb35c29ae7882c66b>:0 
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogError (object)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
-
-Mono: successfully reloaded assembly
-- Completed reload, in  0.928 seconds
-Domain Reload Profiling:
-	ReloadAssembly (928ms)
-		BeginReloadAssembly (144ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (11ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (42ms)
-		EndReloadAssembly (722ms)
-			LoadAssemblies (75ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (226ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (34ms)
-			SetupLoadedEditorAssemblies (361ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (12ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (59ms)
-				BeforeProcessingInitializeOnLoad (45ms)
-				ProcessInitializeOnLoadAttributes (213ms)
-				ProcessInitializeOnLoadMethodAttributes (29ms)
-				AfterProcessingInitializeOnLoad (1ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (4ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 6.06 ms, found 12 plugins.
-Preloading 1 native plugins for Editor in 0.09 ms.
-Unloading 4560 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 91 unused Assets / (3.9 MB). Loaded Objects now: 5034.
-Memory consumption went from 179.0 MB to 175.1 MB.
-Total: 3.598500 ms (FindLiveObjects: 0.239200 ms CreateObjectMapping: 0.141200 ms MarkObjects: 2.322800 ms  DeleteObjects: 0.894100 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  Time since last request: 8.953154 seconds.
+  path: Assets/Terrrain Data/New Terrain.asset
+  artifactKey: Guid(348f9c8660a695942861d929ec521754) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrrain Data/New Terrain.asset using Guid(348f9c8660a695942861d929ec521754) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79ffbccc2d396381aaae58f5f874c925') in 0.034416 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 82.413037 seconds.
-  path: Packages/com.unity.testtools.codecoverage
-  artifactKey: Guid(37e2fae9013949daf3016af47382dd90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.testtools.codecoverage using Guid(37e2fae9013949daf3016af47382dd90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a26b7002931fba3277f6d32b650d8b6') in 0.015497 seconds 
+  Time since last request: 6.192722 seconds.
+  path: Assets/Terrrain Data/Beach.asset
+  artifactKey: Guid(348f9c8660a695942861d929ec521754) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrrain Data/Beach.asset using Guid(348f9c8660a695942861d929ec521754) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9380a165969e091c88edbdb3c7791d6') in 0.012137 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 5.805908 seconds.
-  path: Assets/Scripts
-  artifactKey: Guid(663872916375b164db989d35c00f3d1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts using Guid(663872916375b164db989d35c00f3d1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '784b083dd3368a01f351b66d384cdb68') in 0.009988 seconds 
+  Time since last request: 272.609123 seconds.
+  path: Assets/New Terrain 1.asset
+  artifactKey: Guid(173415dd8ebe1434b9152b69dba863c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Terrain 1.asset using Guid(173415dd8ebe1434b9152b69dba863c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd8d236c3b99c330ab900e11d7165add') in 0.016602 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 12.718406 seconds.
+  Time since last request: 8.035271 seconds.
+  path: Assets/Beach.asset
+  artifactKey: Guid(173415dd8ebe1434b9152b69dba863c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Beach.asset using Guid(173415dd8ebe1434b9152b69dba863c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22217b30f3ad790be3514a983c255085') in 0.004763 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1065.269485 seconds.
+  path: Assets/Downloaded Assets
+  artifactKey: Guid(cf55fb073c4f7954888be5fcdfe3e1d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Downloaded Assets using Guid(cf55fb073c4f7954888be5fcdfe3e1d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b97c16d311ef83b69528ac2dbefeea68') in 0.012332 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 46.537281 seconds.
   path: Assets/Scenes/Testing/TerrainBuilding.unity
   artifactKey: Guid(ab366d975ea5f84449f93d574514ef2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Testing/TerrainBuilding.unity using Guid(ab366d975ea5f84449f93d574514ef2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '259e88bb243504af4e1c0169013dfdfe') in 0.010807 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2334.832602 seconds.
-  path: Assets/New Terrain.asset
-  artifactKey: Guid(9d767a0e2d2701d41b870ef4d630a518) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/New Terrain.asset using Guid(9d767a0e2d2701d41b870ef4d630a518) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7c03a8409bfa1bbad352c184e0516ad') in 0.041513 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.841417 seconds.
-  path: Assets/New Terrain 1.asset
-  artifactKey: Guid(3837bba058f26af4785a40cf9323d2c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/New Terrain 1.asset using Guid(3837bba058f26af4785a40cf9323d2c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19b127636944994e1b6cbbf59d018ae2') in 0.015932 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 29.789609 seconds.
-  path: Assets/ForestMountain.asset
-  artifactKey: Guid(3837bba058f26af4785a40cf9323d2c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ForestMountain.asset using Guid(3837bba058f26af4785a40cf9323d2c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '209b277165a68ea55cf6e5479f9f0972') in 0.014859 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 14.382471 seconds.
-  path: Assets/Terrrain
-  artifactKey: Guid(7b5a121a96f97e84d95315d6d8b53705) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Terrrain using Guid(7b5a121a96f97e84d95315d6d8b53705) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b853edfcb75350186c26f9a794e1c3ff') in 0.011687 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 8.318132 seconds.
-  path: Assets/Terrrain Data
-  artifactKey: Guid(7b5a121a96f97e84d95315d6d8b53705) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Terrrain Data using Guid(7b5a121a96f97e84d95315d6d8b53705) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c715da02fa71056a5e96277e9bc9baae') in 0.018304 seconds 
+Start importing Assets/Scenes/Testing/TerrainBuilding.unity using Guid(ab366d975ea5f84449f93d574514ef2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd7a5040d9fb3eeb1504859d0a2fffed') in 0.012113 seconds 
