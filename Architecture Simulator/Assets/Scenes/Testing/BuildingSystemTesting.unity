@@ -1162,8 +1162,8 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1497789520}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 14.23}
+  m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
+  m_LocalPosition: {x: 0, y: 0, z: -17.02}
   m_LocalScale: {x: 0.01, y: 0.01, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -1172,7 +1172,7 @@ RectTransform:
   - {fileID: 1704542348}
   m_Father: {fileID: 0}
   m_RootOrder: 4
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 1.94}
@@ -1361,13 +1361,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   rightController: {fileID: 568784988}
+  gridSize: 0.25
+  buildArea:
+    serializedVersion: 2
+    m_Bits: 64
   objects:
   - {fileID: 3501377668148668316, guid: 6ed516e7d4816d342996baf0e3583749, type: 3}
   - {fileID: 1389673638420377805, guid: 1f2f8a64d5fae614199c9cf4a3d1fae6, type: 3}
   - {fileID: 8116943108044479700, guid: b4f550475ee08564b9bde262e36b60ea, type: 3}
-  buildArea:
-    serializedVersion: 2
-    m_Bits: 64
 --- !u!4 &1747272907
 Transform:
   m_ObjectHideFlags: 0

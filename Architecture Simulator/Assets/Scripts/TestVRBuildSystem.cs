@@ -1,21 +1,20 @@
 using System.Collections;
 using System.Collections.Generic;
-using System.Net.NetworkInformation;
 using UnityEngine;
 
 public class TestVRBuildSystem : MonoBehaviour
 {
-    public Transform rightController;
-    public GameObject[] objects;
-    GameObject pendingObject;
-
+    [SerializeField] private Transform rightController;    
+    [SerializeField] private float gridSize = 1f;
     [SerializeField] private LayerMask buildArea;
+    [Space]
+    [SerializeField] private GameObject[] objects;
 
+    GameObject pendingObject;
     Vector3 position;
     RaycastHit hit;
 
     // Rotate amount, size of grid, adn boolean to tell if the grid is working
-    private float gridSize = 1f;
     private bool gridOn = true;
 
     // Update is called once per frame
@@ -46,8 +45,10 @@ public class TestVRBuildSystem : MonoBehaviour
 
     private void FixedUpdate()
     {
+        // adding a ray to the right controller
         Ray ray = new(rightController.position, rightController.forward);
 
+        // shooting the ray
         if (Physics.Raycast(ray, out hit, buildArea))
         {
             position = hit.point;
