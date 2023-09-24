@@ -338,6 +338,12 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 568784985}
   m_PrefabAsset: {fileID: 0}
+--- !u!4 &829604375 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5065346554409303309, guid: f309b1bbb92e355438366518813a046d,
+    type: 3}
+  m_PrefabInstance: {fileID: 568784985}
+  m_PrefabAsset: {fileID: 0}
 --- !u!20 &837055774 stripped
 Camera:
   m_CorrespondingSourceObject: {fileID: 5065346554497410317, guid: f309b1bbb92e355438366518813a046d,
@@ -1361,13 +1367,16 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   rightController: {fileID: 568784988}
+  leftController: {fileID: 829604375}
   gridSize: 0.25
-  buildArea:
-    serializedVersion: 2
+  layerMasks:
+  - serializedVersion: 2
     m_Bits: 64
+  - serializedVersion: 2
+    m_Bits: 256
   objects:
-  - {fileID: 3501377668148668316, guid: 6ed516e7d4816d342996baf0e3583749, type: 3}
-  - {fileID: 1389673638420377805, guid: 1f2f8a64d5fae614199c9cf4a3d1fae6, type: 3}
+  - {fileID: 180987928014927430, guid: 9142fbcf9d1934b4e885ea1653686e0e, type: 3}
+  - {fileID: 919132149155446097, guid: bd754de79068f8840a1ed3d0a1e7db82, type: 3}
   - {fileID: 8116943108044479700, guid: b4f550475ee08564b9bde262e36b60ea, type: 3}
 --- !u!4 &1747272907
 Transform:

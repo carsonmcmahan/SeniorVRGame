@@ -4,9 +4,10 @@ using UnityEngine;
 
 public class TestVRBuildSystem : MonoBehaviour
 {
-    [SerializeField] private Transform rightController;    
+    [SerializeField] private Transform rightController;
+    [SerializeField] private Transform leftController;
     [SerializeField] private float gridSize = 1f;
-    [SerializeField] private LayerMask buildArea;
+    [SerializeField] private LayerMask[] layerMasks;
     [Space]
     [SerializeField] private GameObject[] objects;
 
@@ -14,13 +15,28 @@ public class TestVRBuildSystem : MonoBehaviour
     Vector3 position;
     RaycastHit hit;
 
+    Building building;
+
     // Rotate amount, size of grid, adn boolean to tell if the grid is working
     private bool gridOn = true;
 
     // Update is called once per frame
     private void Update()
     {
-        if(pendingObject != null)
+        Ray left = new(leftController.position, leftController.forward);
+
+        if (Physics.Raycast(left, out hit, 100, layerMasks[1]))
+        {
+            if (Input.GetButtonDown("XRI_Left_TriggerButton"))
+            {
+                if(hit.transform.TryGetComponent(out building))
+                {
+                    building.DestroyBuilding();
+                }
+            }
+        }
+
+        if (pendingObject != null)
         {
             if(gridOn)
             {
@@ -46,10 +62,12 @@ public class TestVRBuildSystem : MonoBehaviour
     private void FixedUpdate()
     {
         // adding a ray to the right controller
-        Ray ray = new(rightController.position, rightController.forward);
+        Ray right = new(rightController.position, rightController.forward);
+
+        
 
         // shooting the ray
-        if (Physics.Raycast(ray, out hit, buildArea))
+        if (Physics.Raycast(right, out hit, 100, layerMasks[0]))
         {
             position = hit.point;
         }

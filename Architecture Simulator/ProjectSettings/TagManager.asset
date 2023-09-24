@@ -12,6 +12,7 @@ TagManager:
   - Kitchen_Master_Two_Interactable
   - Destroy
   - Roof
+  - Building
   layers:
   - Default
   - TransparentFX
@@ -21,7 +22,7 @@ TagManager:
   - UI
   - BuildArea
   - TopArea
-  - 
+  - Building
   - 
   - 
   - 

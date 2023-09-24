@@ -383,6 +383,7 @@
 "Assets/Audio/Scripts/AdaptiveAudioTrigger.cs"
 "Assets/Audio/Scripts/Audio.cs"
 "Assets/Audio/Scripts/Singleton.cs"
+"Assets/Scripts/Building.cs"
 "Assets/Scripts/BuildingSystem.cs"
 "Assets/Scripts/Main/DestroyInteractable.cs"
 "Assets/Scripts/Main/MainMenuButtons.cs"
