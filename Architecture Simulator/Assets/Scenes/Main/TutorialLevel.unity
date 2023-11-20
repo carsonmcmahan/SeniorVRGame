@@ -6429,6 +6429,9 @@ MonoBehaviour:
   player: {fileID: 1797008126}
   teleportSite: {fileID: 835458111}
   teleportMainHub: {fileID: 360433566}
+  materials:
+  - {fileID: 2100000, guid: 3a408e788dcbed6429c8d22a01b32a76, type: 2}
+  - {fileID: 2100000, guid: 9ca22510633fbfd4399f1704cd9d5c72, type: 2}
   mainHub: {fileID: 386487574}
   buildSite: {fileID: 1728099117}
 --- !u!4 &926168866

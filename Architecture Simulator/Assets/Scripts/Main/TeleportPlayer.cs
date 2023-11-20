@@ -9,19 +9,31 @@ public class TeleportPlayer : MonoBehaviour
     [SerializeField] private GameObject teleportSite;
     [SerializeField] private GameObject teleportMainHub;
 
+    [Header("Skybox Materials")]
+    [SerializeField] private Material[] materials;
+
     [Header("Audio")]
     public AudioSource mainHub;
     public AudioSource buildSite;
 
-    public void TeleportToSite()
+    private void Start()
     {
-        player.transform.position = teleportSite.transform.position;
-        buildSite.Play();
+        RenderSettings.skybox = materials[0];
     }
 
     public void TeleportToHub()
     {
         player.transform.position = teleportMainHub.transform.position;
+        RenderSettings.skybox = materials[0];
         mainHub.Play();
     }
+
+    public void TeleportToSite()
+    {
+        player.transform.position = teleportSite.transform.position;
+        RenderSettings.skybox = materials[1];
+        buildSite.Play();
+    }
+
+    
 }
