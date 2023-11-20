@@ -12,6 +12,8 @@ public class TestVRBuildSystem : MonoBehaviour
     [SerializeField] private GameObject[] objects;
 
     GameObject pendingObject;
+    GameObject scaledObject;
+
     Vector3 position;
     RaycastHit hit;
 
@@ -64,8 +66,6 @@ public class TestVRBuildSystem : MonoBehaviour
         // adding a ray to the right controller
         Ray right = new(rightController.position, rightController.forward);
 
-        
-
         // shooting the ray
         if (Physics.Raycast(right, out hit, 100, layerMasks[0]))
         {
@@ -76,6 +76,7 @@ public class TestVRBuildSystem : MonoBehaviour
     private void PlaceObject()
     {
         pendingObject = null;
+        scaledObject = null;
     }
 
     // Rotates the selected object
@@ -83,7 +84,11 @@ public class TestVRBuildSystem : MonoBehaviour
     //Selects an object
     public void SelectObjects(int index)
     {
+        
+        //scaledObject.transform.localScale = new(10, 10, 10);
+
         pendingObject = Instantiate(objects[index], position, transform.rotation);
+        scaledObject = Instantiate(objects[index], new Vector3(position.x, 50f, position.z), transform.rotation);
     }
 
     private void ToggleGrid()
