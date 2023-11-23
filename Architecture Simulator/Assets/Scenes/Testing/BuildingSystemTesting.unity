@@ -274,7 +274,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &551562838
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -804,6 +804,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Tablet
+      objectReference: {fileID: 0}
+    - target: {fileID: 1112821368104388414, guid: 56ae186b92f371546abe2ae3c4f571ee,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 56ae186b92f371546abe2ae3c4f571ee, type: 3}
@@ -1638,11 +1643,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 676fa295d3b2a42469229dea1b1dedd5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rightController: {fileID: 0}
+  rightController: {fileID: 568784988}
   placeDistance: 100
   buildAreaLayerMask:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 64
+  buildingPrefabs:
+  - {fileID: 7258660422792603896, guid: aa17bb482178d2146861b8056805e96a, type: 3}
+  - {fileID: 509977248963600105, guid: e12b733fa82ddf44db96339eb7e53560, type: 3}
+  - {fileID: 8932742074613575294, guid: 4f6838ec0eadefa4eb124484677dd42d, type: 3}
 --- !u!82 &1821587457 stripped
 AudioSource:
   m_CorrespondingSourceObject: {fileID: 386487574, guid: 56ae186b92f371546abe2ae3c4f571ee,

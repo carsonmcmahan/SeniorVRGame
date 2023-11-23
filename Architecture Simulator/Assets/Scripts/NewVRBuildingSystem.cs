@@ -1,27 +1,46 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
 using UnityEngine;
+using UnityEngine.UIElements;
 
 public class NewVRBuildingSystem : MonoBehaviour
 {
     public Transform rightController;
     public float placeDistance = 100;
     public LayerMask buildAreaLayerMask;
+    [Space]
+    public GameObject[] buildingPrefabs;
 
+    int arrayCount = 0;
+
+    GameObject previewPrefab;
 
     Vector3 position;
     RaycastHit hit;
 
     private void Update()
     {
-        if(Input.GetButton("XRI_Right_TriggerButton"))
+        if(previewPrefab != null)
         {
-            Debug.Log(position);
+            previewPrefab.transform.position = position;
+
+            if (Input.GetButtonDown("XRI_Right_TriggerButton"))
+            {
+                // instantiate preview object 
+                previewPrefab = Instantiate(buildingPrefabs[0], position, Quaternion.identity);
+            }
+
+            if (Input.GetButtonUp("XRI_Right_TriggerButton"))
+            {
+                // instantiate real object
+                previewPrefab = null;
+            }
         }
 
         if(Input.GetButton("XRI_Right_PrimaryButton"))
         {
-            Debug.Log("Pressed");
+            SelectObject();
         }
     }
 
@@ -34,6 +53,16 @@ public class NewVRBuildingSystem : MonoBehaviour
         {
             // setting a Vector3 to the point the raycast hits
             position = hit.point;
+        }
+    }
+
+    private void SelectObject()
+    {
+        arrayCount++;
+
+        if(arrayCount > buildingPrefabs.Length - 1)
+        {
+            arrayCount = 0;
         }
     }
 }
