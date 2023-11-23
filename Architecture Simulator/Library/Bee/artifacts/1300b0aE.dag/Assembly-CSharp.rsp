@@ -392,6 +392,7 @@
 "Assets/Scripts/Main/PlayerController.cs"
 "Assets/Scripts/Main/TabletCheck.cs"
 "Assets/Scripts/Main/TeleportPlayer.cs"
+"Assets/Scripts/NewVRBuildingSystem.cs"
 "Assets/Scripts/Scale Mechanic/ScaleBedroom.cs"
 "Assets/Scripts/Scale Mechanic/ScaleGarage.cs"
 "Assets/Scripts/Scale Mechanic/ScaleKitchen.cs"

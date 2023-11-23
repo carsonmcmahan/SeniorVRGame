@@ -290,6 +290,7 @@ MonoBehaviour:
   player: {fileID: 568784986}
   teleportSite: {fileID: 806473901}
   teleportMainHub: {fileID: 1085341225}
+  materials: []
   mainHub: {fileID: 1821587457}
   buildSite: {fileID: 1176698145}
 --- !u!4 &551562839
@@ -326,6 +327,16 @@ PrefabInstance:
       propertyPath: tablet
       value: 
       objectReference: {fileID: 1002973039}
+    - target: {fileID: 5065346555532406222, guid: f309b1bbb92e355438366518813a046d,
+        type: 3}
+      propertyPath: m_InvalidColorGradient.key0.a
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5065346555532406222, guid: f309b1bbb92e355438366518813a046d,
+        type: 3}
+      propertyPath: m_InvalidColorGradient.key1.a
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5065346556121597176, guid: f309b1bbb92e355438366518813a046d,
         type: 3}
       propertyPath: m_Name
@@ -1568,6 +1579,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1747272907}
   - component: {fileID: 1747272906}
+  - component: {fileID: 1747272908}
   m_Layer: 0
   m_Name: BuildingManager
   m_TagString: Untagged
@@ -1582,7 +1594,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1747272905}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 70db50ca541ee9f42a189c42727e8ef2, type: 3}
   m_Name: 
@@ -1614,6 +1626,23 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1747272908
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1747272905}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 676fa295d3b2a42469229dea1b1dedd5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rightController: {fileID: 0}
+  placeDistance: 100
+  buildAreaLayerMask:
+    serializedVersion: 2
+    m_Bits: 0
 --- !u!82 &1821587457 stripped
 AudioSource:
   m_CorrespondingSourceObject: {fileID: 386487574, guid: 56ae186b92f371546abe2ae3c4f571ee,
