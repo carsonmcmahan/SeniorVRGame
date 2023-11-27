@@ -1584,7 +1584,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1747272907}
   - component: {fileID: 1747272906}
-  - component: {fileID: 1747272908}
   m_Layer: 0
   m_Name: BuildingManager
   m_TagString: Untagged
@@ -1599,7 +1598,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1747272905}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 70db50ca541ee9f42a189c42727e8ef2, type: 3}
   m_Name: 
@@ -1613,7 +1612,7 @@ MonoBehaviour:
   - serializedVersion: 2
     m_Bits: 256
   objects:
-  - {fileID: 180987928014927430, guid: 9142fbcf9d1934b4e885ea1653686e0e, type: 3}
+  - {fileID: 7258660422792603896, guid: aa17bb482178d2146861b8056805e96a, type: 3}
   - {fileID: 919132149155446097, guid: bd754de79068f8840a1ed3d0a1e7db82, type: 3}
   - {fileID: 8116943108044479700, guid: b4f550475ee08564b9bde262e36b60ea, type: 3}
 --- !u!4 &1747272907
@@ -1631,27 +1630,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1747272908
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1747272905}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 676fa295d3b2a42469229dea1b1dedd5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  rightController: {fileID: 568784988}
-  placeDistance: 100
-  buildAreaLayerMask:
-    serializedVersion: 2
-    m_Bits: 64
-  buildingPrefabs:
-  - {fileID: 7258660422792603896, guid: aa17bb482178d2146861b8056805e96a, type: 3}
-  - {fileID: 509977248963600105, guid: e12b733fa82ddf44db96339eb7e53560, type: 3}
-  - {fileID: 8932742074613575294, guid: 4f6838ec0eadefa4eb124484677dd42d, type: 3}
 --- !u!82 &1821587457 stripped
 AudioSource:
   m_CorrespondingSourceObject: {fileID: 386487574, guid: 56ae186b92f371546abe2ae3c4f571ee,

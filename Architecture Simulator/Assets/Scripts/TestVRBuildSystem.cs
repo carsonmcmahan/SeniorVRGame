@@ -76,19 +76,16 @@ public class TestVRBuildSystem : MonoBehaviour
     private void PlaceObject()
     {
         pendingObject = null;
-        scaledObject = null;
-    }
 
-    // Rotates the selected object
+        position = new(position.x, position.y + 50f, position.z);
+        // spawn the scaled object
+        Instantiate(objects[0], position, transform.rotation);
+    }
 
     //Selects an object
     public void SelectObjects(int index)
     {
-        
-        //scaledObject.transform.localScale = new(10, 10, 10);
-
         pendingObject = Instantiate(objects[index], position, transform.rotation);
-        scaledObject = Instantiate(objects[index], new Vector3(position.x, 50f, position.z), transform.rotation);
     }
 
     private void ToggleGrid()
