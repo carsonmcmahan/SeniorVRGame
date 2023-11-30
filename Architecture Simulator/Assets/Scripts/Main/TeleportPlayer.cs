@@ -5,9 +5,7 @@ using UnityEngine;
 public class TeleportPlayer : MonoBehaviour
 {
     [Header("Variables")]
-    [SerializeField] private GameObject player;
-    [SerializeField] private GameObject teleportSite;
-    [SerializeField] private GameObject teleportMainHub;
+    [SerializeField] private Transform player;
 
     [Header("Skybox Materials")]
     [SerializeField] private Material[] materials;
@@ -21,19 +19,17 @@ public class TeleportPlayer : MonoBehaviour
         RenderSettings.skybox = materials[0];
     }
 
-    public void TeleportToHub()
+    public void TeleportToHub(Transform mainHubTeleport)
     {
-        player.transform.position = teleportMainHub.transform.position;
+        player.position = mainHubTeleport.position;
         RenderSettings.skybox = materials[0];
         mainHub.Play();
     }
 
-    public void TeleportToSite()
+    public void TeleportToSite(Transform buildSiteTeleport)
     {
-        player.transform.position = teleportSite.transform.position;
+        player.position = buildSiteTeleport.position;
         RenderSettings.skybox = materials[1];
         buildSite.Play();
     }
-
-    
 }

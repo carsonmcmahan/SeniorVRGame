@@ -13,6 +13,8 @@ TagManager:
   - Destroy
   - Roof
   - Building
+  - TeleporterOne
+  - TeleporterTwo
   layers:
   - Default
   - TransparentFX
