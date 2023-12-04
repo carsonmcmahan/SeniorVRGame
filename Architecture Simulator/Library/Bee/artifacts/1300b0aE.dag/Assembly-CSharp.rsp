@@ -397,6 +397,8 @@
 "Assets/Scripts/Scale Mechanic/ScaleLivingroom.cs"
 "Assets/Scripts/Scale Mechanic/ScaleRoof.cs"
 "Assets/Scripts/TestVRBuildSystem.cs"
+"Assets/Scripts/Tutorial/ScaleObject.cs"
+"Assets/Scripts/Tutorial/TurtorialManager.cs"
 "Assets/Scripts/UI Elements/SpawnInteractables.cs"
 "Assets/Scripts/UI Elements/UIManager.cs"
 "Assets/Scripts/VR/CharacterControllerHelper.cs"
