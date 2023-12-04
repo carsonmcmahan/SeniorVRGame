@@ -1067,16 +1067,40 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 386487575, guid: 56ae186b92f371546abe2ae3c4f571ee, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 386487575, guid: 56ae186b92f371546abe2ae3c4f571ee, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
       value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 386487575, guid: 56ae186b92f371546abe2ae3c4f571ee, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 386487575, guid: 56ae186b92f371546abe2ae3c4f571ee, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 732680686}
     - target: {fileID: 386487575, guid: 56ae186b92f371546abe2ae3c4f571ee, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 1029446993}
+    - target: {fileID: 386487575, guid: 56ae186b92f371546abe2ae3c4f571ee, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 386487575, guid: 56ae186b92f371546abe2ae3c4f571ee, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: TeleportToHub
+      objectReference: {fileID: 0}
+    - target: {fileID: 386487575, guid: 56ae186b92f371546abe2ae3c4f571ee, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: AudioForMainHubTeleport
+      objectReference: {fileID: 0}
+    - target: {fileID: 386487575, guid: 56ae186b92f371546abe2ae3c4f571ee, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
+      value: TurtorialManager, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 386487575, guid: 56ae186b92f371546abe2ae3c4f571ee, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgument
@@ -1085,6 +1109,10 @@ PrefabInstance:
     - target: {fileID: 386487575, guid: 56ae186b92f371546abe2ae3c4f571ee, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Transform, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 386487575, guid: 56ae186b92f371546abe2ae3c4f571ee, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 1728099118, guid: 56ae186b92f371546abe2ae3c4f571ee, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
@@ -1160,6 +1188,111 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 1112821368104388409, guid: 56ae186b92f371546abe2ae3c4f571ee,
+        type: 3}
+      propertyPath: m_Activated.m_PersistentCalls.m_Calls.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1112821368104388409, guid: 56ae186b92f371546abe2ae3c4f571ee,
+        type: 3}
+      propertyPath: m_SelectExited.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1112821368104388409, guid: 56ae186b92f371546abe2ae3c4f571ee,
+        type: 3}
+      propertyPath: m_SelectEntered.m_PersistentCalls.m_Calls.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1112821368104388409, guid: 56ae186b92f371546abe2ae3c4f571ee,
+        type: 3}
+      propertyPath: m_Activated.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1112821368104388409, guid: 56ae186b92f371546abe2ae3c4f571ee,
+        type: 3}
+      propertyPath: m_Activated.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1029446993}
+    - target: {fileID: 1112821368104388409, guid: 56ae186b92f371546abe2ae3c4f571ee,
+        type: 3}
+      propertyPath: m_SelectExited.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1112821368104388409, guid: 56ae186b92f371546abe2ae3c4f571ee,
+        type: 3}
+      propertyPath: m_SelectEntered.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1112821368104388409, guid: 56ae186b92f371546abe2ae3c4f571ee,
+        type: 3}
+      propertyPath: m_Activated.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1112821368104388409, guid: 56ae186b92f371546abe2ae3c4f571ee,
+        type: 3}
+      propertyPath: m_SelectExited.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1029446993}
+    - target: {fileID: 1112821368104388409, guid: 56ae186b92f371546abe2ae3c4f571ee,
+        type: 3}
+      propertyPath: m_Activated.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: PickedUpTablet
+      objectReference: {fileID: 0}
+    - target: {fileID: 1112821368104388409, guid: 56ae186b92f371546abe2ae3c4f571ee,
+        type: 3}
+      propertyPath: m_SelectEntered.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1029446993}
+    - target: {fileID: 1112821368104388409, guid: 56ae186b92f371546abe2ae3c4f571ee,
+        type: 3}
+      propertyPath: m_SelectExited.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1112821368104388409, guid: 56ae186b92f371546abe2ae3c4f571ee,
+        type: 3}
+      propertyPath: m_SelectEntered.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1112821368104388409, guid: 56ae186b92f371546abe2ae3c4f571ee,
+        type: 3}
+      propertyPath: m_SelectExited.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: PickedUpTablet
+      objectReference: {fileID: 0}
+    - target: {fileID: 1112821368104388409, guid: 56ae186b92f371546abe2ae3c4f571ee,
+        type: 3}
+      propertyPath: m_SelectEntered.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: PickedUpTablet
+      objectReference: {fileID: 0}
+    - target: {fileID: 1112821368104388409, guid: 56ae186b92f371546abe2ae3c4f571ee,
+        type: 3}
+      propertyPath: m_Activated.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: TurtorialManager, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 1112821368104388409, guid: 56ae186b92f371546abe2ae3c4f571ee,
+        type: 3}
+      propertyPath: m_SelectExited.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: TurtorialManager, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 1112821368104388409, guid: 56ae186b92f371546abe2ae3c4f571ee,
+        type: 3}
+      propertyPath: m_SelectEntered.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: TurtorialManager, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 1112821368104388409, guid: 56ae186b92f371546abe2ae3c4f571ee,
+        type: 3}
+      propertyPath: m_Activated.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 1112821368104388409, guid: 56ae186b92f371546abe2ae3c4f571ee,
+        type: 3}
+      propertyPath: m_SelectExited.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 1112821368104388409, guid: 56ae186b92f371546abe2ae3c4f571ee,
+        type: 3}
+      propertyPath: m_SelectEntered.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 1112821368104388414, guid: 56ae186b92f371546abe2ae3c4f571ee,
         type: 3}
@@ -1987,7 +2120,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tutorialAudioSource: {fileID: 1392292179}
-  tutorialAudio: []
+  tutorialAudio:
+  - {fileID: 8300000, guid: 452e12c6a15b8ab4f93a5976be3094ef, type: 3}
+  - {fileID: 8300000, guid: 7c0c839fa6dee33438f767b71a197245, type: 3}
+  - {fileID: 8300000, guid: 8e4415bdf86c9704db58267a19ca723a, type: 3}
+  - {fileID: 8300000, guid: 0aca6b867c0ef4447b1ff62a5f3a895a, type: 3}
+  - {fileID: 8300000, guid: f12d90c152b15d248b431317b80c2087, type: 3}
+  - {fileID: 8300000, guid: 99ae22a76726e6b4cae012728d103a44, type: 3}
 --- !u!114 &1029446994
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2479,7 +2618,7 @@ GameObject:
   - component: {fileID: 1261377555}
   - component: {fileID: 1261377554}
   m_Layer: 5
-  m_Name: ---Canvas---
+  m_Name: ---TutorialCanvas---
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2935,6 +3074,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7863283567349692674, guid: c167f75eb2a3bb3478bae89ccbd017bc,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7863283567349692677, guid: c167f75eb2a3bb3478bae89ccbd017bc,
         type: 3}
       propertyPath: m_Convex
@@ -3132,7 +3276,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1399405190}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1029446993}
+        m_TargetAssemblyTypeName: TurtorialManager, Assembly-CSharp
+        m_MethodName: StartTutorial
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 1261377553}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1399405190
 MonoBehaviour:
   m_ObjectHideFlags: 0
