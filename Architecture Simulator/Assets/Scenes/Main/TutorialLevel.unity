@@ -1442,6 +1442,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1029446993}
+        m_TargetAssemblyTypeName: TurtorialManager, Assembly-CSharp
+        m_MethodName: SpawnObjectAudio
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &697367482
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2953,6 +2965,18 @@ MonoBehaviour:
         m_Arguments:
           m_ObjectArgument: {fileID: 1188644748}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1029446993}
+        m_TargetAssemblyTypeName: TurtorialManager, Assembly-CSharp
+        m_MethodName: SpawnObjectAudio
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -4593,6 +4617,7 @@ MonoBehaviour:
   housePrfabs:
   - {fileID: 434960591}
   - {fileID: 1655511074}
+  tutorialManager: {fileID: 1029446993}
 --- !u!4 &1865994267 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7152070405559950625, guid: 55131f24f5a417647b78f5b66a8400c2,

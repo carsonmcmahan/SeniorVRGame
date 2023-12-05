@@ -5,6 +5,7 @@ using UnityEngine;
 public class ScaleObject : MonoBehaviour
 {
     [SerializeField] private GameObject[] housePrfabs;
+    [SerializeField] private TurtorialManager tutorialManager;
 
     private void Start()
     {
@@ -19,11 +20,14 @@ public class ScaleObject : MonoBehaviour
         if(other.gameObject.CompareTag("HouseOne"))
         {
             housePrfabs[0].SetActive(true);
+
+            tutorialManager.PlaceObjectAudio();
         }
 
         if (other.gameObject.CompareTag("HouseTwo"))
         {
             housePrfabs[1].SetActive(true);
+            tutorialManager.PlaceObjectAudio();
         }
     }
 

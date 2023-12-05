@@ -1,6 +1,5 @@
 using System.Collections;
 using System.Collections.Generic;
-using Unity.Tutorials.Core.Editor;
 using UnityEngine;
 
 public class TurtorialManager : MonoBehaviour
@@ -9,14 +8,18 @@ public class TurtorialManager : MonoBehaviour
     public AudioSource tutorialAudioSource;
     public AudioClip[] tutorialAudio;
 
-    int numOfPickUps = 0;
+    int numTeleportPickUps = 0;
     int hubButtonPresses = 0;
+    int numObjectPickups = 0;
+    int numPlaceObject = 0;
 
     private void Start()
     {
         tutorialAudioSource.PlayOneShot(tutorialAudio[0]);
-        numOfPickUps = 0;
+        numTeleportPickUps = 0;
         hubButtonPresses = 0;
+        numObjectPickups = 0;
+        numPlaceObject = 0;
     }
 
     public void StartTutorial(GameObject canvas)
@@ -34,9 +37,9 @@ public class TurtorialManager : MonoBehaviour
 
     public void PickedUpTablet()
     {
-        numOfPickUps++;
+        numTeleportPickUps++;
 
-        if (numOfPickUps == 1)
+        if (numTeleportPickUps == 1)
         {
             tutorialAudioSource.PlayOneShot(tutorialAudio[2]);
         }
@@ -49,6 +52,26 @@ public class TurtorialManager : MonoBehaviour
         if(hubButtonPresses == 1)
         {
             tutorialAudioSource.PlayOneShot(tutorialAudio[3]);
+        }
+    }
+
+    public void SpawnObjectAudio()
+    {
+        numObjectPickups++;
+
+        if(numObjectPickups == 1)
+        {
+            tutorialAudioSource.PlayOneShot(tutorialAudio[4]);
+        }
+    }
+
+    public void PlaceObjectAudio()
+    {
+        numPlaceObject++;
+
+        if( numPlaceObject == 1)
+        {
+            tutorialAudioSource.PlayOneShot(tutorialAudio[5]);
         }
     }
 }
