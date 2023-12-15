@@ -6,6 +6,7 @@ public class ScaleObject : MonoBehaviour
 {
     [SerializeField] private GameObject[] housePrfabs;
     [SerializeField] private TurtorialManager tutorialManager;
+    [SerializeField] private GameObject startGameButton;
 
     private void Start()
     {
@@ -13,6 +14,8 @@ public class ScaleObject : MonoBehaviour
         {
             housePrfabs[i].SetActive(false);
         }
+
+        startGameButton.SetActive(false);
     }
 
     private void OnTriggerEnter(Collider other)
@@ -22,12 +25,15 @@ public class ScaleObject : MonoBehaviour
             housePrfabs[0].SetActive(true);
 
             tutorialManager.PlaceObjectAudio();
+
+            startGameButton.SetActive(true);
         }
 
         if (other.gameObject.CompareTag("HouseTwo"))
         {
             housePrfabs[1].SetActive(true);
             tutorialManager.PlaceObjectAudio();
+            startGameButton.SetActive(true);
         }
     }
 

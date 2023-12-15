@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class TurtorialManager : MonoBehaviour
 {
@@ -73,5 +74,10 @@ public class TurtorialManager : MonoBehaviour
         {
             tutorialAudioSource.PlayOneShot(tutorialAudio[5]);
         }
+    }
+
+    public void LoadScene(int sceneId)
+    {
+        SceneManager.LoadScene(sceneId);
     }
 }
